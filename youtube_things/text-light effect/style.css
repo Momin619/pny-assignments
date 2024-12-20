@@ -1,0 +1,35 @@
+section {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: center;
+}
+body {
+  font-size: 10em;
+  font-family: "Roboto", sans-serif;
+  background-color: black;
+}
+
+section h1 {
+  color: white;
+  opacity: 0.3;
+}
+
+section:hover {
+  color: white;
+  transition: 0.3s all;
+}
+
+.light {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 110%;
+  height: 100%;
+  pointer-events: none;
+  background: radial-gradient(
+    circle at var(--x) var(--y),
+    transparent 10%,
+    rgba(0, 0, 0, 0.95) 20%
+  );
+}

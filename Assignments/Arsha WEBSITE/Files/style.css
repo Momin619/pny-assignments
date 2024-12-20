@@ -1,0 +1,1128 @@
+.blue {
+  background-color: #37517e;
+}
+
+.links {
+  position: absolute;
+  right: -25%;
+}
+
+.home {
+  color: #47b2e4;
+}
+
+.navbar {
+  width: 100%;
+}
+/* Apply cursor pointer to nav links and set default color */
+.hover:hover {
+  color: #00a6eb; /* Change to your desired hover color */
+}
+
+a {
+  cursor: pointer;
+}
+
+a:hover {
+  color: red;
+}
+
+.move {
+  display: block;
+  margin-left: 10%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  position: relative;
+}
+
+.width {
+  height: 680px;
+
+  background-color: #37517e;
+}
+
+.boxes {
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  top: 12%;
+  background-color: #37517e;
+}
+
+.heading {
+  position: absolute;
+  bottom: 42%;
+  left: 10%;
+}
+
+.info {
+  position: absolute;
+  bottom: 24%;
+  left: 10%;
+}
+
+.info p:nth-child(1) {
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+.video-icon {
+  display: flex;
+  gap: 0.8rem;
+  position: absolute;
+  top: 72.5%;
+  left: 21%;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-icon p {
+  color: white;
+  text-align: center;
+}
+
+.video-icon i {
+  display: block;
+  margin-top: -10%;
+}
+
+.image {
+  width: 100%;
+  position: absolute;
+  right: -60%;
+  top: 25%;
+  animation: move 3s linear infinite alternate;
+}
+
+@keyframes move {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-20px);
+  }
+}
+
+.paragraph {
+  height: 500px;
+  position: absolute;
+  width: 100%;
+}
+
+.top {
+  position: sticky;
+  z-index: 3333;
+}
+
+.paragraph h1 {
+  text-align: center;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.gray {
+  width: 150px;
+  height: 1px;
+  position: absolute;
+  left: 45%;
+  top: 22%;
+  background-color: #37517e;
+}
+
+.blue-box {
+  width: 50px;
+  height: 4px;
+  position: absolute;
+  left: 35%;
+  top: -100%;
+  background-color: #37517e;
+}
+
+.text-blue {
+  color: #37517e;
+}
+
+.top-btn {
+  display: none;
+}
+
+.gray-scale img {
+  filter: grayscale(1);
+}
+
+.gray-scale {
+  display: flex;
+  gap: 10rem;
+  justify-content: center;
+  position: absolute;
+  left: 8%;
+  bottom: 3%;
+}
+
+.gray-scale img:hover {
+  filter: grayscale(0);
+  transition: 0.5s all;
+}
+
+.second {
+  background-color: lightgray;
+}
+
+.left-section ol {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 10%;
+  top: 35%;
+  font-size: large;
+}
+
+.left-section ol {
+  position: absolute;
+  left: -1.5%;
+  top: 100%;
+}
+
+.left-section li {
+  display: flex;
+  gap: 1rem;
+}
+.left-section i {
+  color: var(--bs-info);
+}
+
+.right-section {
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  right: -54%;
+  bottom: 24%;
+  font-size: large;
+}
+
+.right-section button {
+  width: 12%;
+}
+
+.right-section button:hover {
+  color: white;
+}
+
+.acc-btn {
+  width: 100%;
+  height: 600px;
+  position: absolute;
+
+  top: 150%;
+}
+
+.col-padding {
+  padding: 2.5rem;
+}
+
+.margin {
+  margin-left: 6.3%;
+}
+
+.graph {
+  height: 450px;
+  position: absolute;
+  bottom: 0%;
+}
+
+.g-image {
+  position: absolute;
+  left: 10%;
+  bottom: 0%;
+}
+.g-parent {
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  top: 210%;
+}
+
+.bar-chart {
+  position: absolute;
+  right: -12%;
+
+  top: 11%;
+}
+
+.gray-line {
+  width: 100%;
+  background-color: lightgray;
+  height: 10px;
+  position: absolute;
+  left: 0%;
+  top: 10%;
+}
+
+.blue-line {
+  width: 100%;
+
+  background-color: #37517e;
+  height: 10px;
+}
+
+.html {
+  position: absolute;
+  top: -5%;
+  left: 0%;
+}
+
+.line {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  bottom: -120%;
+  padding-top: 1rem;
+}
+
+.hov {
+  position: absolute;
+  right: 0%;
+  top: -5%;
+}
+
+.line2 {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  bottom: -140%;
+  padding-top: 1rem;
+}
+
+.gray-line2 {
+  width: 100%;
+  background-color: lightgray;
+  height: 10px;
+  position: absolute;
+  left: 0%;
+  top: 20%;
+}
+
+.blue-line2 {
+  width: 90%;
+
+  background-color: #37517e;
+  height: 10px;
+}
+
+.html2 {
+  position: absolute;
+  top: 5%;
+  left: 0%;
+}
+.hov2 {
+  position: absolute;
+  right: 0%;
+  top: 5%;
+}
+
+.line3 {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  bottom: -170%;
+  padding-top: 1rem;
+}
+
+.gray-line3 {
+  width: 100%;
+  background-color: lightgray;
+  height: 10px;
+  position: absolute;
+  left: 0%;
+  top: 19%;
+}
+
+.blue-line3 {
+  width: 75%;
+
+  background-color: #37517e;
+  height: 10px;
+}
+
+.html3 {
+  position: absolute;
+  top: 6%;
+  left: 0%;
+}
+.hov3 {
+  position: absolute;
+  right: 0%;
+  top: 6%;
+}
+
+.line4 {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  bottom: -198%;
+  padding-top: 1rem;
+}
+.gray-line4 {
+  width: 100%;
+  background-color: lightgray;
+  height: 10px;
+  position: absolute;
+  left: 0%;
+  top: 22%;
+}
+
+.blue-line4 {
+  width: 55%;
+
+  background-color: #37517e;
+  height: 10px;
+}
+
+.html4 {
+  position: absolute;
+  top: 10%;
+  left: 0%;
+}
+.hov4 {
+  position: absolute;
+  right: 0%;
+  top: 10%;
+}
+
+.bar-chart p br {
+  display: none;
+}
+
+.background {
+  height: 600px;
+  width: 100%;
+
+  position: absolute;
+  top: 270%;
+}
+
+.services {
+  height: 600px;
+  width: 100%;
+}
+
+.gray-box {
+  width: 160px;
+
+  height: 1px;
+  position: absolute;
+  left: 45%;
+  top: 20%;
+  background-color: #37517e;
+}
+
+.blue-box1 {
+  width: 50px;
+  height: 4px;
+  position: absolute;
+  left: 35%;
+  top: -100%;
+  background-color: #37517e;
+}
+
+.services-cards {
+  width: 83%;
+  position: absolute;
+  left: 8.5%;
+  height: 410px;
+  top: 35%;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.card {
+  width: 25%;
+  height: 0%;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.card:hover .card-heading1 h5 {
+  color: var(--bs-info);
+  transition: 0.3s all;
+}
+
+.card:hover {
+  transition: 0.5s all;
+  transform: translateY(-20px);
+  scale: 1.1;
+}
+
+.card:hover .card-heading2 h5 {
+  color: var(--bs-info);
+  transition: 0.3s all;
+}
+
+.card:hover .card-heading3 h5 {
+  color: var(--bs-info);
+  transition: 0.3s all;
+}
+
+.card:hover .card-heading4 h5 {
+  color: var(--bs-info);
+  transition: 0.3s all;
+}
+
+.building {
+  width: 100%;
+  height: 400px;
+
+  position: absolute;
+  top: 350%;
+  z-index: 4;
+  background: linear-gradient(rgba(0, 0, 125, 0.3), rgba(0, 0, 0, 0.7)),
+    url("https://bootstrapmade.com/demo/templates/Arsha/assets/img/cta-bg.jpg")
+      fixed,
+    top;
+  object-fit: cover;
+}
+
+main-portfolio {
+  border: 1px solid red;
+  position: absolute;
+}
+.portfolio {
+  position: absolute;
+  top: 393.5%;
+  left: 0%;
+  width: 100%;
+  height: 1400px;
+  background-color: white;
+  border: 1px solid red;
+}
+
+.flex-image {
+  height: 1000px;
+
+  position: absolute;
+  bottom: 5%;
+  display: flex;
+  left: 8%;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.m-image {
+  display: none;
+}
+.button {
+  position: absolute;
+  right: -5%;
+  bottom: 45%;
+}
+
+.button button {
+  width: 50%;
+  padding: 0.5rem;
+}
+.button:hover .btn-outline-white {
+  background-color: var(--bs-info);
+}
+
+.action {
+  position: absolute;
+  right: 15%;
+  top: 40%;
+}
+
+.gray-box2 {
+  width: 200px;
+
+  height: 1px;
+  position: absolute;
+  left: 44.2%;
+  top: 11%;
+  background-color: lightgray;
+}
+.blue-box2 {
+  width: 50px;
+  height: 4px;
+  position: absolute;
+  left: 35%;
+  top: -100%;
+  background-color: #0dcaf0;
+}
+
+text-gray {
+  color: #ffffff;
+}
+
+.btns {
+  position: absolute;
+  display: flex;
+  left: 42%;
+  gap: 1rem;
+  top: 18.5%;
+}
+
+.btns button {
+  width: 60px;
+}
+
+.btns .hover1:hover {
+  background-color: var(--bs-info);
+  transition: 0.5s all;
+}
+
+.btns .hover2:hover {
+  color: var(--bs-white);
+}
+
+.div-on-hover {
+  border: 1px solid red;
+  height: 70px;
+  width: 100%;
+  position: absolute;
+  bottom: 60%;
+  transform: translateY(0px);
+  opacity: 0.1;
+}
+
+#toothpaste {
+  overflow: hidden;
+}
+
+.flex-image:nth-child(1):hover .div-on-hover {
+  opacity: 1;
+}
+
+.flex-image2 {
+  position: absolute;
+  right: 38.5%;
+  height: 1200px;
+
+  top: 23.5%;
+  flex-direction: column;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.flex-image3 {
+  position: absolute;
+  right: -110%;
+  height: 1200px;
+
+  top: 0%;
+  flex-direction: column;
+  display: flex;
+  gap: 1.5rem;
+}
+/* Media query section */
+
+@media only screen and (max-width: 431px) {
+  .image {
+    position: absolute;
+    left: 5%;
+  }
+  .image img {
+    width: 90%;
+  }
+
+  .width {
+    height: 800px;
+  }
+
+  .heading {
+    position: absolute;
+    top: 63%;
+    left: 3%;
+  }
+  .heading h1 {
+    font-size: 1.7rem;
+  }
+
+  .info {
+    position: absolute;
+    bottom: 20%;
+    left: 3%;
+  }
+  .info p {
+    font-size: large;
+  }
+
+  .info br {
+    display: none;
+  }
+
+  .info button {
+    position: absolute;
+    left: -4%;
+  }
+  .video-icon {
+    position: absolute;
+    bottom: 7.5%;
+    left: 40%;
+  }
+
+  .heading br {
+    display: none;
+  }
+
+  .menu-icon {
+    width: 100%;
+    position: absolute;
+    height: 100px;
+    top: 3.5%;
+    right: -85%;
+  }
+
+  .menu-icon i {
+    display: block;
+    position: absolute;
+    z-index: 2222;
+    color: white;
+    font-size: 2rem;
+  }
+
+  .top-btn {
+    display: block;
+    top: 4%;
+    width: 60%;
+    position: absolute;
+    right: 10%;
+  }
+
+  .top-btn button {
+    border-radius: 0%;
+    display: inline;
+  }
+  .none {
+    display: none;
+  }
+
+  .gray-scale {
+    position: absolute;
+    left: 0%;
+    top: 93.5%;
+  }
+  .second {
+    gap: 2rem;
+    display: block;
+    margin-left: 0%;
+  }
+  .second img {
+    width: 40%;
+  }
+  .paragraph {
+    height: 700px;
+    position: absolute;
+    top: 100%;
+  }
+
+  .gray {
+    position: absolute;
+    left: 32.5%;
+    top: 15%;
+  }
+  .left-section {
+    position: absolute;
+    left: 0%;
+    top: 28%;
+  }
+
+  .left-section ol {
+    position: absolute;
+    left: -6%;
+  }
+  .left-section li {
+    gap: 0.5rem;
+  }
+
+  .right-section {
+    position: absolute;
+    bottom: 5%;
+    left: 0%;
+  }
+
+  .right-section br {
+    display: none;
+  }
+  .right-section button {
+    width: 40%;
+    padding: 2%;
+  }
+
+  .acc-btn {
+    position: absolute;
+    top: 180%;
+    height: 1000px;
+    width: 100%;
+  }
+
+  .accordian {
+    width: 100%;
+  }
+
+  .col-lg-7 {
+    position: absolute;
+    bottom: 10%;
+    width: 150%;
+  }
+
+  .col-lg-7 h1 {
+    font-size: 4rem;
+  }
+
+  .col-padding {
+    padding: 2rem;
+    width: 150%;
+
+    position: absolute;
+    bottom: 0%;
+  }
+
+  .row {
+    width: 100%;
+  }
+
+  .col-padding h1 {
+    font-size: 2.2rem;
+    position: absolute;
+    bottom: 10%;
+  }
+
+  .col-lg-5 {
+    position: absolute;
+    top: -5%;
+    left: 4%;
+  }
+
+  #btn {
+    width: 100%;
+    height: 80px;
+    font-size: medium;
+    padding: 1rem;
+  }
+
+  .btn1 {
+    z-index: 222;
+  }
+  .move {
+    position: absolute;
+    top: -30%;
+  }
+
+  .g-parent {
+    position: absolute;
+    top: 280%;
+    height: 850px;
+  }
+
+  .g-image img {
+    height: 280px;
+    width: 95%;
+  }
+
+  .g-image {
+    position: absolute;
+    top: -80%;
+    left: 1.5%;
+  }
+  .bar-chart h1 {
+    position: absolute;
+    top: -50%;
+    font-size: 2rem;
+    left: 0%;
+  }
+  .bar-chart {
+    position: absolute;
+    left: 3%;
+  }
+  .bar-chart p {
+    display: block;
+    font-size: medium;
+    margin-top: 15%;
+  }
+
+  .line {
+    position: absolute;
+    top: 110%;
+  }
+  .gray-line,
+  .gray-line2,
+  .gray-line3,
+  .gray-line4 {
+    width: 85%;
+  }
+  .html {
+    position: absolute;
+    left: 0%;
+    top: -40%;
+  }
+
+  .line2 {
+    position: absolute;
+    top: 140%;
+  }
+
+  .hov {
+    position: absolute;
+    left: 75%;
+    top: -39%;
+  }
+
+  .hov2 {
+    position: absolute;
+    left: 75%;
+    top: -30%;
+  }
+
+  .html2 {
+    position: absolute;
+    left: 0%;
+    top: -30%;
+  }
+
+  .line3 {
+    position: absolute;
+    top: 182%;
+  }
+
+  .line4 {
+    position: absolute;
+    top: 215%;
+  }
+
+  .html4 {
+    position: absolute;
+    left: 0%;
+    top: -27%;
+  }
+
+  .hov4 {
+    position: absolute;
+    left: 75%;
+    top: -27%;
+  }
+  .bar-chart p br {
+    display: inline;
+  }
+
+  .html3 {
+    position: absolute;
+    left: 0%;
+    top: -30%;
+  }
+  .hov3 {
+    position: absolute;
+    left: 75%;
+    top: -30%;
+  }
+
+  .background {
+    position: absolute;
+    top: 370%;
+    height: 1500px;
+  }
+
+  .services {
+    height: 100%;
+  }
+  .services-title h1 {
+    font-size: 2.5rem;
+  }
+
+  .gray-box {
+    position: absolute;
+    top: 8%;
+    left: 30%;
+    width: 172px;
+  }
+
+  .blue-box1 {
+    position: absolute;
+    left: 35%;
+  }
+
+  .services-cards {
+    flex-direction: column;
+    position: absolute;
+    top: 18%;
+    gap: 5rem;
+    left: 0%;
+    align-items: space-between;
+  }
+
+  .card {
+    width: 120%;
+    padding: 30%;
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    overflow: hidden;
+  }
+
+  .card i {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+  }
+  .card-heading1,
+  .card-heading2,
+  .card-heading3,
+  .card-heading4 h5 {
+    position: absolute;
+    left: 5%;
+    bottom: 35%;
+  }
+  .card-content,
+  .card-content2,
+  .card-content3,
+  .card-content4 {
+    position: absolute;
+    bottom: 0%;
+    left: 5%;
+  }
+
+  .card:hover {
+    scale: 1.04;
+  }
+  .card:hover .card-heading2 h5 {
+    color: var(--bs-info);
+    transition: 0.3s all;
+  }
+
+  .card:hover .card-heading3 h5 {
+    color: var(--bs-info);
+    transition: 0.3s all;
+  }
+
+  .card:hover .card-heading4 h5 {
+    color: var(--bs-info);
+    transition: 0.3s all;
+  }
+
+  .card:hover .card-heading1 h5 {
+    color: var(--bs-info);
+    transition: 0.3s all;
+  }
+
+  .building {
+    position: absolute;
+    top: 520%;
+    background-image: none;
+    height: 500px;
+    border: none;
+  }
+  .m-image {
+    display: inline;
+    object-fit: cover;
+    position: absolute;
+
+    height: 700px;
+    width: 100%;
+
+    filter: brightness(0.5);
+  }
+
+  .action h1 {
+    position: relative;
+    z-index: 22222;
+    text-align: center;
+  }
+
+  .action {
+    position: absolute;
+    width: 90%;
+    top: 50%;
+    left: 8%;
+  }
+
+  .button {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 0%;
+    bottom: -10%;
+    justify-content: center;
+  }
+
+  .button button {
+    width: 40%;
+  }
+
+  .action p {
+    z-index: 222222;
+    position: absolute;
+    text-align: center;
+  }
+
+  .action p br {
+    display: none;
+  }
+  .portfolio {
+    position: absolute;
+    top: 600%;
+    height: 2700px;
+  }
+
+  .gray-box2 {
+    width: 155px;
+
+    height: 1px;
+    position: absolute;
+    left: 32%;
+    display: block;
+    margin-top: -5%;
+    background-color: lightgray;
+  }
+  .blue-box2 {
+    width: 50px;
+    height: 4px;
+    position: absolute;
+    left: 35%;
+    top: -100%;
+    background-color: #0dcaf0;
+  }
+
+  .padding {
+    position: absolute;
+    top: 2%;
+    left: 30%;
+  }
+  .btns {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+  }
+
+  .text-gray {
+    position: absolute;
+    bottom: 92.5%;
+  }
+
+  .gray-box2 {
+    position: absolute;
+    top: 4.5%;
+  }
+
+  .btns {
+    display: block;
+    margin-top: -10%;
+    margin-left: 5%;
+  }
+}

@@ -1,0 +1,19 @@
+Important Extensions For VS Code:
+
+1)Auto Close tag
+
+2)Auto Complete tag
+
+3)Auto Rename tag
+
+4)Beautify
+
+5)Bootstrap Intellisense
+
+6)Live server
+
+7)Material icon theme
+
+8)Material theme
+
+9)Prettier

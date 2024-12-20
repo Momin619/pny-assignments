@@ -1,0 +1,1207 @@
+/* ---- reset ---- */
+body {
+  margin: 0;
+  font: normal 75% Arial, Helvetica, sans-serif;
+}
+
+.tranform-underlay {
+  transform: translateX(0%);
+}
+canvas {
+  display: block;
+  vertical-align: bottom;
+} /* ---- particles.js container ---- */
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #adff2f;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+} /* ---- stats.js ---- */
+.count-particles {
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13e8e9;
+  font-size: 0.8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+.js-count-particles {
+  font-size: 1.1em;
+}
+#stats,
+.count-particles {
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+#stats {
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+.count-particles {
+  border-radius: 0 0 3px 3px;
+}
+
+.indoor {
+  background-color: greenyellow;
+
+  width: 100%;
+  height: 3600px;
+}
+
+.card-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.plant-name {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.price {
+  font-size: 1.2em;
+  color: #333;
+  margin: 10px 0;
+}
+
+.description {
+  font-size: 0.9em;
+  color: #666;
+  margin: 10px 0;
+}
+
+.effects ul,
+.care-instructions ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.effects li,
+.care-instructions li {
+  background: #e8f5e9;
+  border: 1px solid #c8e6c9;
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+.add-to-cart {
+  color: red;
+}
+
+.add-to-cart,
+.wishlist {
+  font-family: "Poppins", sans-serif;
+  background-color: #4caf50;
+  border: none;
+
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 5px;
+
+  cursor: pointer;
+  transition: 0.7s all;
+
+  border-radius: 10px;
+}
+
+.add-to-cart:hover {
+  transition: 0.2s all;
+  background-color: rgb(95, 76, 76);
+  cursor: pointer;
+}
+
+.wishlist {
+  background-color: #ffc107;
+}
+
+.wishlist:hover {
+  background-color: #ffb300;
+}
+
+.money img {
+  width: 80%;
+  display: block;
+  margin-left: 13.5%;
+  height: 455px;
+}
+
+.dracena img {
+  display: block;
+  height: 455px;
+  margin-left: 3%;
+}
+
+.croton img {
+  display: block;
+  margin-top: 10%;
+}
+
+.crotons {
+  display: block;
+  margin-left: 3%;
+}
+.spider img {
+  display: block;
+
+  height: 460px;
+  transform: rotate(364deg);
+}
+.cards {
+  position: absolute;
+  left: 15%;
+  top: 15.5%;
+}
+.snake {
+  transform: rotate(-4deg);
+}
+
+.song-of-india img {
+  width: 87%;
+  display: block;
+  margin: auto;
+}
+.zz img {
+  width: 90%;
+  height: 400px;
+  display: block;
+  margin: auto;
+}
+
+.syngonium img {
+  height: 400px;
+}
+
+.rubber img {
+  display: block;
+  margin-left: 8%;
+}
+.purple img {
+  width: 90%;
+  display: block;
+  margin: auto;
+  height: 400px;
+}
+.hr {
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  z-index: 222;
+  top: 370%;
+  background-color: rgb(0, 201, 0);
+}
+.peace img {
+  width: 100%;
+  display: block;
+  margin-left: -3%;
+  height: 500px;
+}
+
+.alocasia img {
+  display: block;
+  margin-left: 2%;
+  height: 480px;
+  margin-top: 5%;
+}
+.line {
+  height: 5px;
+  width: 100%;
+  background-color: green;
+}
+
+.title {
+  position: absolute;
+  left: 40%;
+}
+
+.outdoor {
+  height: 3900px;
+  width: 100%;
+  position: absolute;
+  top: 370%;
+  background-color: #adff2f;
+}
+
+.line1 {
+  height: 5px;
+  width: 100%;
+  background-color: green;
+}
+
+.o-title {
+  position: absolute;
+  left: 38.2%;
+  top: 1%;
+}
+
+.title h1 {
+  color: black;
+  background: linear-gradient(green, teal, lime);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.o-title h1 {
+  color: black;
+  background: linear-gradient(green, teal, lime);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.canna img {
+  display: block;
+  margin-top: 10%;
+  margin-left: 4%;
+  height: 500px;
+}
+.cards1 {
+  position: absolute;
+  top: 5%;
+  left: 15%;
+}
+
+.glory img {
+  display: block;
+  margin: auto;
+}
+
+.caladium img {
+  height: 460px;
+  display: block;
+  margin-top: 10%;
+  margin-left: 2%;
+}
+
+.hibiscus img {
+  transform: rotate(1deg);
+}
+
+.Fiscus img {
+  display: block;
+  margin-left: 1%;
+}
+
+.lantana img {
+  display: block;
+  margin-left: 0%;
+  margin-top: 10%;
+}
+
+.rose img {
+  height: 400px;
+}
+
+.jasmine img {
+  display: block;
+  margin-left: -2%;
+  height: 400px;
+}
+
+.bi-cart-plus-fill {
+  color: darkgreen;
+  cursor: pointer;
+  font-size: 4rem;
+  top: 5%;
+  position: absolute;
+  right: 11%;
+  z-index: 22226662;
+}
+
+.bi-cart-plus-fill:hover {
+  color: green;
+  transition: 0.2s all;
+}
+.text {
+  position: absolute;
+  right: 8.85%;
+  color: white;
+  top: 10%;
+
+  font-size: x-large;
+}
+
+.hr1 {
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  z-index: 222;
+  top: 780%;
+  background-color: rgb(0, 201, 0);
+}
+
+.planters {
+  height: 3600px;
+  /* border: 10px solid red; */
+  position: absolute;
+  background-color: greenyellow;
+  width: 100%;
+  top: 782%;
+}
+
+.p-title {
+  width: 100%;
+  height: 100px;
+  display: block;
+  margin-left: 42.5%;
+  margin-top: 3%;
+}
+
+.p-title h1 {
+  background: linear-gradient(green, teal, lime);
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.line2 {
+  height: 5px;
+  width: 15%;
+  display: block;
+  margin-left: -1.8%;
+  background-color: green;
+}
+
+.first {
+  height: 380px;
+}
+.first img {
+  height: 450px;
+  width: 300px;
+  display: block;
+  margin-left: 2%;
+}
+
+.cards-planter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  display: block;
+  margin-top: 3%;
+  width: 90%;
+}
+
+.moveable {
+  position: absolute;
+  width: 100%;
+  left: 15%;
+}
+
+.card-planter {
+  background-color: white;
+  width: 400px;
+  cursor: pointer;
+  transition: transform 0.5s, border 0.5s, box-shadow 0.5s;
+  height: 550px;
+  padding: 1rem;
+
+  border-radius: 50px;
+}
+
+.card-planter:hover {
+  border-color: transparent;
+
+  transform: scale(1.1);
+}
+.card-content-planter {
+  display: block;
+
+  margin-left: 6%;
+}
+
+.card-content-planter p {
+  display: block;
+
+  margin-left: 10%;
+}
+
+.p-btn {
+  display: block;
+  margin-left: 10%;
+}
+
+.main {
+  width: 100%;
+  height: 150px;
+  display: block;
+  margin-left: 25%;
+  margin-top: -10%;
+}
+
+.second img {
+  height: 330px;
+  display: block;
+  margin-left: 5%;
+  object-fit: cover;
+}
+
+.third img {
+  display: block;
+  margin-left: 5%;
+}
+
+.four img {
+  height: 300px;
+  display: block;
+}
+
+.op1 img {
+  margin-left: 10%;
+  display: block;
+}
+.op2 img {
+  margin-left: 8%;
+  display: block;
+}
+
+.seven img {
+  display: block;
+  margin-left: 6%;
+}
+
+.planters-stand {
+  width: 100%;
+  height: 3700px;
+  background-color: greenyellow;
+  position: absolute;
+  top: 106%;
+  left: -15%;
+}
+
+.last-hr {
+  height: 40px;
+  width: 100%;
+  background-color: rgb(0, 201, 0);
+  position: absolute;
+  top: 104%;
+  left: -15%;
+  z-index: 2222222;
+}
+
+.pl {
+  position: absolute;
+  left: -4.1%;
+}
+.line3 {
+  height: 5px;
+  width: 24%;
+  background-color: green;
+  display: block;
+  margin-top: 6.8%;
+  margin-left: 37%;
+}
+
+.planter-stand-cards {
+  width: 90%;
+  top: 5%;
+
+  position: absolute;
+  left: 13%;
+}
+
+.planter-stand-card {
+  background-color: white;
+  width: 25%;
+  overflow: hidden;
+  border-radius: 50px;
+  height: 650px;
+  transition: transform 0.5s, border 0.5s, box-shadow 0.5s;
+}
+
+.stand {
+  display: block;
+  margin-left: 28%;
+  margin-top: 10%;
+}
+.s-p {
+  display: block;
+  margin-left: -1%;
+}
+
+.stand-price {
+  display: block;
+  margin-left: 20%;
+}
+
+.stand-btn {
+  display: block;
+  margin-left: 10%;
+}
+
+.unique img {
+  height: 425px;
+}
+
+.un img {
+  display: block;
+  margin-left: -5%;
+}
+
+.width img {
+  width: 350px;
+  height: 420px;
+  display: block;
+  margin-left: 6%;
+}
+
+.wooden img {
+  display: block;
+  margin-left: 10%;
+}
+
+.plant1 img {
+  height: 420px;
+  width: 420px;
+}
+
+.plant2 img {
+  width: 300px;
+  height: 420px;
+  display: block;
+  margin-left: 20%;
+}
+
+.plant3 img {
+  display: block;
+  margin-left: -10%;
+  height: 418px;
+  width: 500px;
+}
+
+.shop img {
+  height: 430px;
+  object-fit: contain;
+  transform: rotate(2deg);
+}
+
+.last-shop img {
+  height: 430px;
+  object-fit: contain;
+}
+
+.Cinnamic h2 {
+  display: block;
+  margin-left: -6%;
+}
+
+.wood h2 {
+  display: block;
+  margin-left: -5%;
+}
+
+.pebble h2 {
+  display: block;
+  margin-left: -5%;
+}
+
+.Ceramic h2 {
+  display: block;
+  margin-left: -5%;
+}
+
+.Saturn h2 {
+  display: block;
+  margin-left: -13%;
+}
+
+.Rounded h2 {
+  display: block;
+  margin-left: -5%;
+}
+
+.Rounded-image img {
+  display: block;
+  margin-left: 10%;
+}
+
+.Black h2 {
+  display: block;
+  margin-left: -8%;
+}
+
+.floral img {
+  display: block;
+  margin-left: 10%;
+}
+.Cactus h2 {
+  display: block;
+  margin-left: -8%;
+}
+.Resin h2 {
+  display: block;
+  margin-left: -3%;
+}
+.White h2 {
+  display: block;
+  margin-left: -10%;
+}
+.Bowl h2 {
+  display: block;
+  margin-left: -10%;
+}
+
+.m {
+  display: block;
+  margin-left: -8%;
+}
+
+.m1 {
+  display: block;
+  margin-left: -15%;
+}
+
+.sidebar {
+  width: 20%;
+  height: 100vh;
+  position: absolute;
+  top: 0%;
+  transform: translateX(-174%);
+  background-color: rgb(75, 165, 75);
+  border-right: 20px solid rgb(255, 255, 255);
+  z-index: 222222222222323;
+  transition: 0.6s ease-in-out all;
+}
+
+.none {
+  display: block;
+}
+.move {
+  transform: translateX(-300px);
+  transition: 0.6s all;
+}
+
+.sidebar a {
+  text-decoration: none;
+}
+.bi-list {
+  position: absolute;
+  z-index: 888888888999;
+  top: -203%;
+  left: 1%;
+  cursor: pointer;
+  color: aqua;
+}
+
+.bi-list:hover {
+  color: rgb(255, 255, 255);
+  transition: 0.2s all;
+}
+
+.content {
+  position: absolute;
+  z-index: 2222;
+
+  top: 30%;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  left: 10%;
+  transition: 1s all;
+  font-family: "Poppins", sans-serif;
+}
+
+.content a {
+  color: white;
+  font-weight: bold;
+  font-size: xx-large;
+  letter-spacing: 3px;
+}
+.content a:hover {
+  color: darkgreen;
+  transition: 0.3s all;
+}
+
+.underlay {
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 888888888;
+  height: 100vh;
+  top: -250%;
+  position: absolute;
+  width: 100%;
+  transform: translateX(-4000px);
+  transition: 0.7s all;
+  backdrop-filter: blur(10px);
+}
+.underlay2 {
+  background-color: rgba(0, 0, 0, 0.8);
+
+  z-index: 21;
+  height: 310vh;
+  top: -203.3%;
+
+  position: absolute;
+  width: 75%;
+  transform: translateX(1910px);
+  z-index: 2252;
+  backdrop-filter: blur(10px);
+}
+
+.underlaymove {
+  transform: translateX(0px);
+}
+
+.display {
+  width: 100%;
+  height: 70px;
+  border-radius: 20px;
+  background-color: white;
+  border: 2px solid green;
+  position: absolute;
+  z-index: 22222;
+}
+
+.cartmenu {
+  background-color: white;
+  height: 310vh;
+  width: 25%;
+  color: black;
+  position: absolute;
+  z-index: 9;
+  top: -203.3%;
+  right: 0%;
+  z-index: 4;
+  border: 6px solid green;
+  transform: translateX(480px);
+  transition: 0.9s all;
+  border-radius: 4px 0 0 4px;
+  z-index: 22222;
+}
+
+.cartmove {
+  transform: translateX(0px);
+}
+
+.title1 {
+  position: absolute;
+  top: 5%;
+  left: 20%;
+  border-top: 0;
+  border: right 0;
+  border-left: 0;
+  border-bottom: 5px solid green;
+
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 4px;
+}
+
+.cartmain {
+  width: 100%;
+  height: 50px;
+  border: 2px solid red;
+  display: block;
+  background-color: #000022;
+}
+
+.details {
+  position: absolute;
+  left: 20%;
+  top: 15%;
+}
+
+.number {
+  color: green;
+  cursor: pointer;
+  display: block;
+  margin-left: 0%;
+}
+
+.clip {
+  background-color: white;
+  clip-path: circle();
+  position: absolute;
+  top: -201.5%;
+
+  right: 5.4%;
+  z-index: 33367333;
+  width: 270px;
+  height: 27px;
+  padding: 2px;
+  text-align: center;
+}
+
+.color {
+  background-color: #00ff00;
+  border: 2px solid;
+  border-radius: 0 10px 10px 0;
+}
+
+.bar {
+  animation: bar both;
+  animation-timeline: scroll();
+  position: fixed;
+  top: 0%;
+  z-index: 4444444444;
+}
+
+@keyframes bar {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+
+#cart-items {
+  display: block;
+  margin-top: 52%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  position: absolute;
+  left: 1%;
+  width: 100%;
+}
+
+#cart-items li {
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+  position: relative;
+  border: 2px solid greenyellow;
+  border-radius: 20px;
+  gap: 2px;
+  width: 90%;
+  color: green;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  padding: 0.5rem;
+  overflow: hidden;
+}
+
+#cart-items li:hover {
+  background-color: green;
+  color: white;
+  transition: 0.2s all;
+  cursor: pointer;
+  border-color: transparent;
+}
+
+.cart-icon {
+  font-size: 24px;
+  margin-left: 10px;
+  transition: transform 0.3s ease;
+}
+
+.cart-icon.animate {
+  transform: scale(1.5);
+}
+
+@keyframes cartFly {
+  0% {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.5) translateY(-50px);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+
+.cart-fly {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: cartFly 1s forwards;
+}
+
+.content_2 {
+  height: 100px;
+  display: flex;
+  position: absolute;
+  flex-direction: ;
+  /* gap: 2rem; */
+  left: 4%;
+  display: block;
+  margin-top: 5%;
+  display: none;
+}
+
+.content_2 a {
+  display: none;
+  text-decoration: none;
+  color: white;
+
+  /* font-size: x-large; */
+}
+
+@media only screen and (max-width: 431px) {
+  .cards {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    top: 1%;
+    left: 10%;
+  }
+  .indoor {
+    position: absolute;
+    right: -3%;
+    width: 110%;
+    height: 9800px;
+    z-index: ;
+  }
+  .title {
+    position: absolute;
+    left: 28%;
+  }
+
+  .outdoor {
+    position: absolute;
+    top: 1050%;
+    height: 10750px;
+  }
+  .hr {
+    position: absolute;
+    top: 1048.5%;
+  }
+
+  .cards1 {
+    position: absolute;
+    left: 3%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    top: 1.5%;
+  }
+
+  .o-title {
+    position: absolute;
+    left: 21%;
+    top: 0.5%;
+  }
+
+  .card:hover {
+    scale: 1;
+    border: none;
+    box-shadow: none;
+  }
+  .planters {
+    height: 8700px;
+    width: 100%;
+    position: absolute;
+    top: 2204%;
+  }
+
+  .hr1 {
+    position: absolute;
+    top: 2203%;
+    height: 40px;
+  }
+  .p-title {
+    display: block;
+    margin-top: 9%;
+    margin-left: 35%;
+  }
+  .line2 {
+    width: 35%;
+    display: block;
+    margin-left: -1%;
+  }
+
+  .card-planter:hover {
+    scale: 1;
+    transition: 0.5s all;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 1);
+  }
+
+  .cards-planter {
+    display: block;
+    margin-left: -10%;
+  }
+
+  .planters-stand {
+    height: 10447px;
+    position: absolute;
+    top: 101%;
+  }
+
+  .planter-stand-cards {
+    gap: 2rem;
+    position: absolute;
+    left: 6.2%;
+  }
+  .planter-stand-card {
+    width: 90%;
+    height: 650px;
+  }
+
+  .last-hr {
+    position: absolute;
+    top: 100.5%;
+    height: 50px;
+  }
+
+  .pl {
+    position: absolute;
+    left: -18%;
+  }
+
+  .line3 {
+    width: 50%;
+    position: absolute;
+    top: 0.55%;
+    width: 68%;
+    left: -24%;
+  }
+
+  .planter-stand-cards {
+    position: absolute;
+    top: 1.4%;
+    left: 5%;
+  }
+
+  .stand {
+    position: absolute;
+    left: -6%;
+  }
+
+  .wooden img {
+    display: block;
+    margin-left: 0%;
+  }
+
+  .plant1 img {
+    display: block;
+    margin-left: -10%;
+  }
+  .plant2 img {
+    display: block;
+    margin-left: 12%;
+  }
+
+  .plant3 img {
+    display: block;
+    margin-left: -25%;
+  }
+
+  .plant4 img {
+    display: block;
+    margin-left: -20%;
+  }
+
+  .content {
+    width: 200%;
+    position: absolute;
+    left: 0%;
+    top: -200%;
+    transition: 1.6s all;
+    z-index: 2222222999999922;
+  }
+
+  .content a {
+    font-size: x-large;
+  }
+  .underlay {
+    height: 200vh;
+    position: absolute;
+    left: -15%;
+    /* top: 10%; */
+  }
+  .planter-stand-card {
+    width: 100%;
+  }
+  .bi-cart-plus-fill {
+    position: absolute;
+    top: -0.1%;
+    font-size: 3.5rem;
+
+    right: 4.5%;
+  }
+
+  .sidebar {
+    transition: 1.2s all;
+    display: block;
+    z-index: 2222222222222222;
+  }
+
+  .content a {
+    font-size: x-large;
+  }
+
+  .content_2 {
+    position: absolute;
+    top: -235%;
+    font-family: "Poppins", sans-serif;
+    height: 150vh;
+    display: block;
+    width: 1000%;
+
+    transition: 1s all;
+    z-index: 2222222222;
+  }
+
+  .color_a {
+    color: transparent;
+  }
+  .bi-list {
+    position: absolute;
+    top: -236%;
+  }
+  .content_2 a {
+    display: block;
+    font-weight: bold;
+  }
+
+  .cartmenu {
+    width: 91%;
+    position: absolute;
+    left: 5%;
+    top: -235%;
+  }
+  .underlay2 {
+    display: none;
+  }
+
+  .title1 {
+    position: absolute;
+    top: 2%;
+  }
+
+  #cart-items {
+    position: absolute;
+    top: -2%;
+  }
+
+  .clip {
+    position: absolute;
+    top: -235.86%;
+    right: 6.5%;
+    width: 24px;
+    height: 24px;
+  }
+
+  .clip h5 {
+    font-size: medium;
+    display: block;
+    margin-top: 1%;
+  }
+}

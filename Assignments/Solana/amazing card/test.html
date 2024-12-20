@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        background-color: #2e175b;
+      }
+      h1 {
+        background: linear-gradient(red, blue);
+        font-size: 4rem;
+        text-transform: uppercase;
+        font-family: "Poppins";
+        background-clip: text;
+        color: transparent;
+      }
+
+      .main-glass {
+        background-color: rgba(255, 255, 255, 0.1);
+        width: 500px;
+        height: 700px;
+
+        z-index: 5544555;
+
+        top: 15%;
+        left: 30%;
+        backdrop-filter: blur(8px);
+        border-radius: 10px;
+        position: relative;
+      }
+
+      .main-glass:hover {
+      }
+
+      .before::before {
+        width: 550px;
+        height: 700px;
+        background-color: red;
+        position: absolute;
+        top: 50%;
+        left: 30%;
+      }
+      img {
+        display: block;
+        margin: auto;
+        filter: blur(10px), brightness(0);
+        margin-top: 10%;
+      }
+
+      img:hover {
+        filter: blur(0px), brightness(1);
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="glass">
+      <img
+        width="50%"
+        src="https://www.theex.com/wp-content/themes/cne/dist/images/png/graphics/Vectorshape-1x2.png"
+        alt=""
+        id="filter"
+      />
+
+      <div class="main-glass"></div>
+      <div class="before"></div>
+    </div>
+  </body>
+</html>

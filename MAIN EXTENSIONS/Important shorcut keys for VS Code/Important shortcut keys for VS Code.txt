@@ -1,0 +1,8 @@
+1)CTRL+SPACE:
+To show suggestion
+
+2)CTRL+ENTER:
+To go on next line
+
+3)SHIFT+ALT+ARROWDOWN:
+COPIES THE LINE ON THE NEXT LINE

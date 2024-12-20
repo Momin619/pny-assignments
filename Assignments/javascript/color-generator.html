@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color generator</title>
+    <style>
+      .title h1 {
+        font-family: "Roboto", sans-serif;
+        font-weight: bolder;
+      }
+
+      #color-code {
+        width: max-content;
+        height: 30px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 1px solid white;
+        border-radius: 10px;
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        font-family: "Roboto", sans-serif;
+        font-weight: bolder;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="title">
+      <h1>Color Generator</h1>
+    </div>
+
+    <div id="color-code">
+      <h1></h1>
+    </div>
+
+    <script>
+      let colors = ["A", "B", "C", "D", "E", "F", 0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+      // console.log(colors.length);
+      // let random = Math.random() * 50;
+      // let floor = Math.floor(random);
+
+      let code = document.getElementById("color-code");
+
+      // console.log(floor);
+      let body = document.body;
+
+      const randomNum = () => {
+        let random = Math.random() * colors.length;
+        let floor = Math.floor(random);
+        return floor;
+      };
+
+      window.addEventListener("click", () => {
+        // console.log("hi");
+        let hex = "#";
+        for (i = 0; i < 6; i++) {
+          hex += colors[randomNum()];
+        }
+        console.log(hex);
+        body.style.background = hex;
+        code.textContent = hex;
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+COLOR:
+a,b,c,d,e,f
+DIR:
+directory
+CD:
+Change directory
+cls:
+clear all commands
+
+mkdir:
+creates a folder 

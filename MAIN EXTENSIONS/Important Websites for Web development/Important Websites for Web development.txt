@@ -1,0 +1,3 @@
+1)Clippy(for making shapes)
+2)SVG Repo(for icons,svg)
+3)flaticon(for icons)

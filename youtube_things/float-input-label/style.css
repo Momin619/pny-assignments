@@ -1,0 +1,43 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    display: flex;
+    background-color: #191825;
+font-family: "Poppins",sans-serif;
+    justify-content: center;
+
+}
+
+.input-field{
+display: block;
+margin-top: 30%;
+}
+
+.input-field input{
+    outline: none;
+border: 2px solid #fff;
+    width: 350px;
+    border-radius: 6px;
+    height: 60px;
+    padding: 0 10px;
+    background-color: transparent;
+    font-size: 28px;
+    color: white;
+}
+
+.input-field label{
+    position: absolute;
+    top: 45%;
+    left: 465px;
+    color: white;
+    pointer-events: none;
+}
+
+
+input:focus{
+    border: 1px solid #1cd679;
+}
+
+
+

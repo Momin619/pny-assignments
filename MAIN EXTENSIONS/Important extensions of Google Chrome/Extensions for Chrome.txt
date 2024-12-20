@@ -1,0 +1,5 @@
+1)Pesticide(inspection)
+2)ColorZilla(to pick color)
+3)CSS Peeper(allow us to do styling)
+4)Fontanello(allow to detect font)
+5)loom(for recording)

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Class</title>
+    <style>
+      div {
+        background-color: red;
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      let bd = document.body;
+      window.addEventListener("click", (e) => {
+        let ball = document.createElement("div");
+        bd.appendChild(ball);
+        // console.log(e.clientX);
+        // console.log(e.clientY);
+        let xPos = e.clientX;
+        let yPos = e.clientY;
+        ball.style.transform = `translate(${xPos}px,${yPos}px)`;
+      });
+    </script>
+  </body>
+</html>

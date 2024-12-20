@@ -1,0 +1,38 @@
+.size1 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.size2 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.size3 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.size4 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.color {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.brush {
+  background-color: red;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+.canvas {
+  overflow: hidden;
+  position: relative;
+}

@@ -1,0 +1,2994 @@
+.e-icon{
+    text-align: left;
+    font-size: xx-large;
+}
+
+header{
+    background-color: #21A5D5;
+    width: 100%;
+    height: 80px;
+padding-top: 30px;
+display: flex;
+
+font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  
+}
+
+
+.middle{
+    position: absolute; 
+    top: 60%;
+     left: 36.3%;
+      font-size: 22px ;
+      color: #343a40;
+}
+
+.middle p{
+    font-size: 5rem;
+}
+
+
+.top{
+    position: absolute;
+    top: 0%;
+    z-index:333333333333;
+    width: 100%;
+}
+
+.e-icon{
+    display: flex;
+    gap: 1.3rem;
+ position: absolute; 
+left: 10%;
+color: white;
+font-size: 2rem;
+}
+
+
+.e-icon p{
+    position: absolute;
+    top: -40%;
+    left: 150%;
+    width: 100%;
+}
+
+
+.l-icon h5{
+    position: absolute;
+    top:-40%;
+    
+}
+
+.location{
+    display: flex;
+}
+.e-icon i{
+    font-size: 3rem;
+    
+}
+
+
+.l-icon i{
+    font-size: 3rem;
+    position: absolute;
+    top: -10%;
+    right: 105%;
+}
+
+
+.mobile-friendly img{
+    width:2000px;
+    height:2000px; 
+    position: absolute;
+     top: 50%;
+     left: 2%;
+} 
+
+.l-icon{
+    display: flex;
+    gap: 1.3rem;
+    position: absolute;
+    justify-content: center;
+    right: 70%;
+    top: 21%;
+    color: white;
+    font-size: 2rem;
+
+}
+
+
+
+
+.socail-icons{
+    display: flex;
+    gap: 5rem;
+    position: absolute;
+    right: 12%;
+    font-size: 3rem;
+
+
+    
+}
+
+
+
+.nav1{
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    height:100px;
+    width: 100%;
+}
+
+.menu{
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    box-shadow:2px 2px 10px 5px lightgray;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    
+    padding: 4rem;
+}
+
+
+.menu-items{
+    display: flex;
+    gap: 5rem;
+align-items: center;
+top: 60%;
+    position: absolute;
+    left: 25%;
+font-size: 4rem;
+    
+
+}
+
+.menu-items li {
+    
+ justify-content: flex-end;
+  
+  font-size: 16px;
+display: flex;
+}
+
+nav,nav ul{
+    display: flex;
+    justify-content: space-around;
+    gap:5rem;
+
+    
+}
+
+
+
+.logo img{
+    margin-top: 0rem;
+    margin-left: 30rem;
+
+}
+
+
+.menu button{
+width: 10%;
+height: 50px;
+margin-top: -0.5%;
+background-color:#21A5D5 ;
+color: white;
+font-weight: lighter;
+font-size: xx-large;
+border: none;
+border-radius: 60px;
+position: absolute;
+right:9%;
+padding: 4rem;
+}
+
+
+.main-title{
+    position: absolute;
+    top: -3%;
+    left: 10%;
+}
+
+
+
+.main-title h3{
+    font-weight: lighter;
+    font-family: "Open Sans", sans-serif;
+}
+
+.main-title p{
+    color: #272727;
+}
+
+.main-title{
+    font-size: 6rem;
+}
+
+.menu button i{
+    position: absolute;
+    right: 30%;
+    top: 30%;
+    font-size: 3rem;
+}
+
+.menu-button h1{
+color:white;
+font-size: 3rem;
+position: absolute;
+top:0%;
+font-weight: lighter;
+left: 20%;
+}
+
+
+.list-icon{
+    font-size: 2rem;
+    position: absolute;
+    right:4%;
+top: 11.5%;
+display: none;
+}
+
+.front-page{
+    width: 100%;
+    height: 2000px;
+    background-color: white;
+    
+}
+
+
+.front-page img{
+    position: absolute;
+    right: 10%;
+    top:20%;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.front-page h1{
+    line-height: 150%;
+}
+
+
+.front-page h1{
+    position: absolute;
+    top: 45%;
+left: 18%;
+font-weight: bolder;
+    font-size: 120px;
+    font-weight: bolder;
+}
+
+.front-page p{
+    position: absolute;
+    top: 40%;
+    font-size: 20px;
+left: 18.5%;
+color: #343a40;
+font-weight: 400;
+line-height: normal;
+}
+
+
+.front-page button{
+    position: absolute;
+    top: 80%;
+    font-size: 20px;
+left: 18.5%;
+color: white;
+border-radius: 60px;
+background: #21A5D5;
+padding: 1rem;
+border: none;
+width: 10%;
+height: 100px;
+}
+
+.rounded-image{
+    position: absolute;
+    top: 85%;
+left: 0%;
+color: black;
+
+}
+
+
+
+.rounded-image{
+    
+    height: 800px;
+    position: absolute;
+    top: 80%;
+    width: 100%;
+}
+
+
+.b-heading h1{
+    position: absolute;
+    top: 110%;
+    z-index: 122;
+    text-align: center;
+    left: 35%;
+    color: white;
+    font-weight: lighter;
+font-size: 5rem;
+    
+   
+      font-family: "Mulish", sans-serif;
+      font-optical-sizing: auto;
+     
+      
+    }
+
+
+
+
+
+
+
+.test img{
+    position: absolute;
+    left:25%;
+}
+
+.test{
+    width: 50%;
+    padding: 2rem;
+    height: 15%;
+    position: absolute;
+    top: 120%;
+    z-index: 144;
+    margin: auto;
+    left: 25%;
+    display: flex;
+    background-color: white;
+}
+
+.customer{
+    width: 100%;
+   
+    background-color: transparent;
+    position: absolute;
+    top: 180%;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10rem;
+    height: 800px;
+}
+
+
+#pg{
+
+    font-size: 4rem;
+}
+
+.customer-text{
+    position: absolute;
+    left: 10%;
+    top: 19%;
+
+font-size: 50rem;
+}
+
+
+.customer-img{
+    display :flex ;
+    gap:40rem ;
+    justify-content: space-between;
+}
+
+.customer-images{
+    position: absolute;
+    right: 25%;
+top: 10%;
+}
+
+.customers h2{
+font-size: 4rem;
+  
+
+}
+
+.image{
+    position: absolute;
+    z-index: 122;
+}
+
+
+.customer h2{
+    font-size: 4rem;
+    font-weight: lighter;
+}
+
+.customer p{
+    font-size: xx-large;
+    font-weight: light;
+    color:#212529;
+}
+
+.child{
+    
+    width: 100%;
+    height: 150px;
+    position: relative;
+    top: -10%;
+}
+
+.child img {
+    position: absolute;
+    top: 30%;
+    right: 32%;
+    transform: translate(-50% -50%);
+
+}
+
+
+.text{
+    position: absolute;
+    bottom: 0%;
+    left: 20%;
+    color: black;
+    font-weight: lighter;
+    font-size: 1.2rem;
+}
+
+.customers-images{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.customers-image{
+    top: 0%;
+    position: sticky;
+    left:100% ;
+
+}
+
+
+.s-text h2{
+font-size: 8rem;
+font-family: "Mulish" ,sans-serif;
+position: absolute;
+left: 37%;
+top: 3%;
+}
+.services{
+    width: 100%;
+    height: 100%;
+    background-color: #21A5D5;
+    position: absolute;
+    top: 250%;
+    text-align: center;
+    font-size: 25.6px;
+    color: white;
+    font-weight:bolder ;
+}
+.s-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+justify-content: space-;
+margin: auto;
+position: absolute;
+top: 20%;
+left: 5%;
+}
+
+
+
+.s-card{
+    
+    color: #212529;
+    box-shadow: 2px 2px 10px 2px black ;
+    border-radius: 30px;
+    width: 10%;
+    padding: 150px;
+    background-color: white;
+   border: 1px solid #212529;;
+   height: 300px;
+  
+}
+
+
+.o-image img{
+
+height: 1500px;
+width: 1600px;
+}
+
+
+.s-card p{
+    font-size: 2.5rem;
+}
+
+.video-section{
+    width: 105%;
+    height: 100%;
+    z-index: 2222;
+    position: absolute;
+    top: 357.5%;
+    object-fit: contain;
+    left: -1%;
+    
+}
+
+.video-section video{
+    object-fit: contain;
+    width: 100%;
+}
+
+.header-section{
+    background-color: white;
+    position: relative;
+    display: flex;
+    gap: 2rem;
+    position: absolute;
+    top: 490%;
+    z-index: 2222;
+    width: 100%;
+    height: 700px;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: lighter;
+
+}
+
+
+.mobile-app h4{
+    font-size: 5rem;
+    font-weight: lighter;
+    color: #343a40; 
+    position: absolute; 
+    top: 13%;
+     left: 10.4%;
+}
+
+.e-commerce{
+    display: flex;
+    gap: 2rem;
+    position: absolute;
+    left: 45%;
+    padding: 1rem;
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+.e-commerce h2{
+    padding: 1rem;
+    
+}
+
+.box{
+width: 180%;
+height: 130px;
+border: 1px solid lightgray;
+position: absolute;
+top: 77%;
+left: -80%;
+color:white;
+border-top: none;
+}
+
+.header-section hr{
+    color: aqua;
+    border-color:0.1px lightgray;
+}
+
+
+.box hr{
+
+    width: 38.8%;
+    position: absolute;
+    left: 61.1%;
+    top: -30%;
+}
+
+ 
+.square{
+    border: 1px solid red;
+    width: 65%;
+    z-index: 444;
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+    left: 17%;
+    text-transform: uppercase;
+    display: none;
+}
+
+
+
+.small-square{
+    border: 1px solid red;
+    text-transform: uppercase;
+}
+
+.border{
+    border: 1px solid red;
+position: absolute;
+top: 44%;
+width: 100%;
+}
+
+.box1{
+     border: 1px solid red;
+     position: absolute;
+     top: 72%;
+     width: 100%;
+}
+
+#c-heading{
+    font-size: 10rem;
+    font-weight: lighter;
+    font-family: "Mulish",sans-serif;
+}
+
+#ad{
+    font-size:4rem;
+}
+
+
+.e-title{
+    font-size: xx-large;
+   
+    position: absolute;
+    z-index: 2222;
+    top: 515%;
+    width: 100%;
+    left: 13.5%;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    height: 250%;
+    padding: 1rem;
+    right: 100%;
+}
+
+.android h1{
+   font-size: 8rem;
+    position: absolute;
+    left:10.3% ;
+    top: 10%;
+}
+
+.e-title p{
+    font-weight: 100;
+}
+
+.e-title h3{
+    font-weight : bolder;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    
+}
+
+
+.big-p p{
+    font-size: 5rem; 
+    color: #343a40;
+     position: absolute;
+      top: 20.5%;
+
+}
+
+.big-p{
+    width: 100%;
+    position: absolute;
+    top: 16%;
+    left: 10.4%;
+}
+    
+
+.kiosk-logo img{
+    width:300px; 
+    height:300px;
+}
+
+.kiosk-logo{
+    position: absolute;
+    top: 80%;
+    left: 1%;
+}
+
+.kiosk-heading{
+    position: absolute;
+    top: 84%;
+    left: 1%;
+    font-weight: bolder;
+}
+
+.kiosk-heading h3{
+    font-size: 8rem;
+}
+
+
+.lower{
+    width: 100%;
+}
+
+.lower h3{
+    font-weight: bold; 
+    position: absolute;
+  top: 54.5%;
+   left: 36.2%;
+   font-size: 8rem;
+
+}
+
+.kiosk-title{
+    position: absolute;
+    top:87%;
+    left: 1%;
+    
+}
+
+.kiosk-title h4{
+    font-weight: lighter;
+    color: #343a40;
+    font-size: 5rem;
+}
+.kiosk-content{
+    position: absolute;
+    top: 90.75%;
+    color: #343a40;
+    font-size: 5rem;
+    left: 1%;
+}
+
+
+.kiosk-image img{
+    width: 2000px;
+    height: 2000px;
+}
+
+.kiosk-image{
+    position: absolute;
+    top: 80%;
+    right: 30%;
+}
+
+
+ .main-image img{
+    width: 100%;
+    height: 100%;
+ }
+
+.operations{
+      width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 800%;
+    left: -0.1%;
+}
+
+.o-heading{
+    position: absolute;
+    top: 5%;
+    left: 35%;
+    color: white;
+    font-weight : bold;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+}
+
+.o-heading h1{
+    font-size: 8rem;
+}
+
+
+.o-paragraph{
+    position: absolute;
+    top: 28%;
+    font-size: x-large;
+    
+    color: white;
+font-family: "Open Sans", sans-serif;    
+left: 15%;
+font-weight: lighter;
+
+}
+
+.o-paragraph p {
+    font-size: 5rem;
+    line-height: 7rem;
+}
+
+
+.managment{
+    position: absolute;
+    top: 25%;
+    left: 103%;
+}
+
+
+.monitor img{
+    width:500px;
+     height:500px;
+}
+
+.monitor{
+    width:200px;
+     height:200px;
+      position: absolute;
+       top: 50%;
+        left: 36%;
+}
+
+
+.h-heading{
+    position: absolute;
+    top: 54.5%;
+    left: 15%;
+    font-size:25px ;
+    font-family: "Mulish", sans-serif;
+    color: white;
+    font-weight: lighter;
+}
+
+.h-heading h1{
+    font-size: 8.5rem;
+}
+
+.h-list{
+    position: absolute;
+    top: 65%;
+    left: 16.2%;
+    color: white;
+    
+    line-height: 6rem;
+    font-family: "Mulish", sans-serif;
+}
+
+.h-list li{
+    font-size: 4rem;
+}
+
+.o-image{
+    position: absolute;
+    top: 35%;
+    left: 57%;
+}
+
+.demo-button{
+    width: 10%;
+    height: 10%;
+    position: absolute;
+top: 62%;
+   left: 16%; 
+    
+}
+
+#tv-image{
+    width: 35%;
+    position: absolute;
+    left: 55%;
+}
+
+.demo-button button{
+    width: 100%;
+    height: 100px;
+    font-size: 3rem;
+}
+
+
+.menu-button:hover button {
+    background-color: black;
+    
+}
+
+.demo-button:hover button{
+    background-color: black;
+}
+
+.twitter:hover i{
+    color: green;
+}
+
+.facebook:hover i{
+    color: green;
+}
+
+.linked-in:hover img{
+    color: green;
+}
+
+.o-button{
+
+    position: absolute;
+    top: 95%;
+    left: 20%;
+    width: max-content;
+    
+    height: 130px;
+}
+
+
+
+.o-button:hover button{
+    background-color: black;
+    color: white;
+}
+
+.o-button button{
+    color: #21A5D5;
+border-radius: 60px;
+background-color: white;
+padding: 2rem;
+border: none;
+width: 110%;
+height: 120px;
+font-size: 3rem;
+font-weight: bolder;
+font-family: "Roboto", sans-serif;
+}
+
+
+.text{
+    width: 100%;
+    position: absolute;
+    top: 170%;
+}
+
+.child img{
+    position: absolute;
+    top: 80%;
+}
+
+
+.text p{
+    font-size: 3rem;
+    
+    
+}
+
+.mb{
+    width: 100%;
+}
+
+.mb h4{
+    position: absolute; 
+    top: 57.75%; 
+    left: 36.3%; 
+    font-weight: lighter;  
+    color: #343a40;
+    font-size: 5rem;
+}
+
+
+white-box{
+    
+    position: absolute;
+    top: 106%;
+    width: 100%;
+    color: transparent;
+    color: wh;
+    background-color: white;
+   
+    height: 200px;
+    }
+    white-boxe{
+       
+    position: absolute;
+    top: 126%;
+    width: 100%;
+    color: transparent;
+    height: 100px;
+    background-color:  white;
+    
+    }
+
+
+
+.unique img{
+    height: 2000px;
+    width: 2000px;
+     position: absolute; 
+    top:7%;
+     right: 20%;
+}
+
+.work{
+    width: 100%;
+    height: 2000px;
+   
+    position: absolute;
+    bottom: -870%;
+    background-color: white;
+    left: 0%;
+}
+
+
+.w-heading{
+    width: 100%;
+    
+    position: absolute;
+    top:5%;
+}
+
+.o-image img:hover{
+    scale: 1.1;
+    transition: 0.5s all;
+}
+
+.last-section{
+    
+    width: 100%;
+    height: 3000px;
+    position: absolute;
+    bottom: -1190%;
+    background: white;
+}
+
+.l-heading{
+    width: 100%;
+}
+
+.l-heading h1{
+    font-size: 8rem;
+    font-family:"Mulish" , sans-serif;
+    text-align: center;
+    color: #000000;
+    font-weight: lighter;
+    
+}
+
+.l-title{
+    width: 100%;
+}
+
+.l-title h2{
+    font-size: 5rem;
+    font-family:"Mulish" , sans-serif;
+    color:#343a40 ;
+    text-align: center;
+    font-weight: lighter;
+}
+
+
+
+.w-heading h1{
+   font-family: "Mulish", sans-serif;
+    text-align: center;
+    font-size: 8rem;
+    font-weight: bold
+    
+}
+
+.w-title{
+    width: 100%;
+    position: absolute;
+    top: 16%;
+    left:18%;
+}
+
+.w-title h2{
+    font-size: 6rem;
+    font-weight: lighter;
+    color: #343a40;
+}
+
+
+
+.w-images img{
+    height: 1200px;
+    width: 2000px;
+}
+
+
+
+
+
+
+
+.solutions{
+    
+width: 20%;
+position: absolute;
+top:18%;
+color: white;
+left:34%;
+height: 900px;
+}
+
+
+.sol-heading {
+width: 100%;
+
+position: absolute;
+left: 5%;
+}
+
+
+
+.pol-heading{
+    width: 100%;
+top: 0%;    
+    position:absolute ;
+    left: 5.5%;
+}
+
+.a-heading{
+    position: absolute;
+    right: 50%;
+}
+
+
+.a-heading h1{
+    font-size: 5rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.about{
+    color: white;
+ 
+    width: 20%;
+    height: 900px;
+    position: absolute; 
+    top: 18%;
+    left: 70%;
+}
+
+
+.products h1{
+    font-size: 5rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.products{
+    color: white;
+  
+    width: 20%;
+    height: 900px;
+    position: absolute;
+
+
+    top: 18%;
+    left: 50%;
+    
+
+}
+
+.solutions h1{
+    font-size: 5rem;
+    font-family: "Roboto", sans-serif;
+    
+    }
+
+.l-items{
+    position: absolute;
+    top: 20%;
+    left: 2%;
+}
+
+.l-items li{
+    font-size: 5rem;
+line-height: 8rem;
+
+    list-style: none;
+    
+}
+
+
+.l-items li{
+    font-family: "Mulish" , sans-serif;
+    font-size: 4rem;
+}
+
+.links{
+    position: absolute;
+    top: 1310%;
+    
+    width: 100%;
+    height: 1700px;
+    background-color: #21A5D5;
+}
+
+.l-image{
+    width: 100%;
+    position: absolute;
+    top: 22%;
+    left: 20%;
+}
+
+
+.rights h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 5rem;
+}
+
+.rights i{
+    font-size: 4rem;
+}
+
+.rights{
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    top: 1370%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.l-btn{
+    width: 100%;
+    
+    position: absolute;
+    bottom: 29%;
+    left: 46%;
+}
+
+.l-btn button{
+    padding: 1.5rem;
+    height: 140px;
+    width: 10%;
+    background-color: #21A5D5 ;
+    color: white;
+    font-size: 3.5rem;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.l-btn button:hover{
+    background-color: black;
+    color: white;
+}
+
+.w-images{
+    position: absolute;
+    left: 16.5%;
+    top:33%;
+    display: flex;
+    gap: 10rem;
+   
+}
+
+.left-arrow i{
+    display: inline-block;
+    color: gray;
+    font-size: 10rem;
+    position: absolute;
+top: 40%;
+left: -6%;
+
+
+}
+
+.right-arrow i{
+    display: inline-block;
+    color: gray;
+    font-size: 10rem;
+    position: absolute;
+top: 40%;
+right:2% ;
+
+}
+
+.circles{
+    display: flex;
+    position: absolute;
+    top: 100%;
+    gap:5rem;
+    left: 47.5%;
+}
+
+.circle{
+    font-size: 1.5rem;
+    color: grey;
+}
+
+.circle:nth-child(2){
+    color: black;
+    
+}
+
+.blogs-news{
+    width: 100%;
+    height:6500px;
+    
+    position: absolute;
+    bottom: -1100%;
+    background-color: #21A5D5;
+}
+
+.n-heading  h1{
+    text-align: center;
+    font-size: 6.5rem;
+font-family: "Mulish", sans-serif;
+color: white;
+font-weight: lighter;
+}
+
+.n-heading{
+    position: absolute;
+    top: 3%;
+    left:45.5%;
+}
+
+
+.n-title{
+    position: absolute;
+    top: 6%;
+    left: 36%;
+    z-index: 222;
+}
+
+.n-title h1{
+    text-align: center;
+    font-size: 8rem;
+font-family: "Mulish", sans-serif;
+color:  white;
+font-weight: lighter;
+z-index: 22222;
+}
+
+.b-card{
+   
+    width: 20%;
+    border-radius: 200px;
+    position: absolute;
+    top: 30%;
+    left:15%;
+    background-color: white;
+    
+    height: 35%;
+}
+
+.card2{
+    position: absolute;
+    left: 40.5%;
+}
+
+
+.f-icons i{
+   color:#69727D;
+    font-size: 7rem;
+}
+
+.f-icons{
+    height: 100px;
+    position: absolute;
+    top: 38%;
+    width: 100%;
+    display: flex;
+    gap:15rem;
+    justify-content: center;
+    align-items: center;
+    position:absolute ;
+    left: -2%;
+
+
+
+    }
+
+
+.f-icons i:hover{
+    color: white;
+}
+
+.footer{
+    background-color: #141519;
+    width: 100%;
+    height: 1000px;
+    position: absolute;
+    bottom: -1210%;
+    padding: 10rem;
+
+}
+
+.footer h1{
+    color: white;
+    font-family:"Roboto", sans-serif ;
+    font-size: 7rem;
+    font-weight: lighter;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 41.85%;
+}
+.card3{
+    position: absolute;
+    left:66%;
+}
+
+.top2{
+    position: absolute;
+    top: 15%;
+   
+}
+
+.b-image{
+    
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.b-card img{
+    object-fit: contain;
+    border-radius: 200px 200px 0px 0px;
+width: 1270px;
+}
+
+
+
+.b-title{
+    padding: 2rem;
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+}
+.b-title p{
+    font-size: 5rem;
+    color: #54595f;
+    font-family: "Mulish", sans-serif;
+
+}
+
+
+.image{
+    width: 100%;
+    position: absolute;
+    top: 15%;
+}
+
+.read-more{
+    
+    position: absolute;
+    bottom: 15%;
+    color: #21A5D5;
+    left: 8%;
+
+    
+
+}
+.read-more p{
+    font-size: 3rem;
+}
+
+
+.b-card hr{
+    position: absolute;
+    top: 90%;
+    width: 99.2%;
+    left: 0%;
+}
+
+.btn{
+    position: absolute;
+    bottom:8%;
+    left: 46.5%;
+    width: 8%;
+}
+
+
+
+.btn button:hover{
+    background-color:black;
+    color: white;
+}
+
+
+
+.btn button{
+    color: #21A5D5;
+    border-radius: 100px;
+    background: white;
+    padding: 2rem;
+    border: none;
+    width: 100%;
+    height: 140px;
+    font-size: 4rem;
+}
+
+.card6{
+    position: absolute ;
+    top:52%;
+    left: 66%;
+}
+
+.card5{
+    position: absolute ;
+    top:52%;
+    left:40.5%;
+}
+
+.card4{
+    position: absolute;
+    top: 52%;
+}
+
+.b-2{
+    position: absolute;
+    bottom: -110%;
+}
+.b-content{
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: row;
+    position: absolute;
+    font-family:"Roboto Slab", sans-serif;
+    color: #adadad; 
+    bottom:4%;
+    left: 4%;
+    justify-content: center;
+    width: 100%;
+    
+    height: 100px;
+}
+
+.b-cards{
+    display: flex;
+}
+
+.date p{
+
+    font-size: 3.5rem;
+position: absolute;
+left: 2%;
+
+
+
+
+}
+
+
+
+.circle-icon{
+    position: absolute;
+    right: 65%;
+    top: 72%;
+}
+.circle-icon i{
+    font-size:large;
+    
+}
+
+.i-text{
+    width: 100%;
+}
+
+.i-text p{
+    font-size: 4rem;
+}
+
+#mobile{
+    position: absolute;
+    top: 7%;
+    left: 10%;
+}
+
+.comments{
+    width: 100%;
+    position: absolute;
+    left: 40%;
+}
+
+.comments p{
+    font-size: 3.5rem;
+}
+
+.f-name{
+    width:70%;
+    padding: 2rem;
+    height: 100px;
+    font-size: 4rem;
+    position: absolute;
+    left: 15.5%;
+    top: 19%;
+    font-family: "Roboto" ,sans-serif;
+    border-radius: 10px;
+}
+
+input::placeholder{
+    color: #7a7a7a;
+}
+
+
+ 
+
+.f-message::placeholder{
+    transform: translateY(-300px);
+ text-align: start;  
+}
+
+.f-message{
+    position: absolute;
+    top: 39%;
+   height: 700px;
+   transform: ;
+}
+
+.f-subject{
+    position: absolute;
+    top:32%;
+}
+
+.f-mail{
+    position: absolute;
+    top: 25%;
+}
+
+.f-title{
+    position: absolute;
+    top: 18%;
+}
+@media only screen and (max-width:431px){
+
+.w-title{
+    width: 100%;
+    position: absolute;
+    left: 6%;
+    top: 16%;
+}
+
+.w-title h2{
+    font-size: large;
+    font-weight: lighter;
+    color: #343a40;
+    font-family: "sans-serif", Mulish ;
+}
+
+
+    .information,.location{
+display: none;
+}
+
+.e-heading{
+    width: 100%;
+}
+
+.e-heading h1{
+    font-size: xx-large;
+}
+
+
+
+.socail-icons{
+    align-items: flex-start;
+    position: absolute;
+    left: 6%;
+}
+
+
+.menu-items,button{
+    display: none;
+}
+
+.logo img {
+    position: absolute;
+ 
+   
+    left: -55%;
+
+}
+
+.demo-button{
+    position: absolute;
+    top: 40%;
+left: -2%;
+}
+
+
+.list-icon{
+ position: absolute;   
+ top:65%;
+    display: block;
+}
+.front-page p{
+    position: absolute;
+    left: 6%;
+}
+
+
+.text p{
+    font-size: larger;
+    position: absolute;
+    left: -5%;
+}
+
+
+.e-heading{
+    width: 100%;
+position: absolute;
+left: -14%;
+top: 32%;
+font-size: 20px;
+}
+.e-heading h1{
+    font-size: 35px;
+}
+
+
+.front-page h1{
+   
+    
+    width: 100%;
+   
+}
+.front-page img{
+    width: 80%;
+    position: absolute;
+    top: 92%;
+    right: 10%;
+    height: 350px;
+    object-fit: contain;
+}
+
+.front-page button{
+    display: block;
+    width: 40%;
+    height:50px;
+    position: absolute;
+    left: 5%;
+top: 200%;
+}
+
+#pg{
+    font-size: 1.5rem;
+}
+
+#ad{
+    font-size: 1.5rem;
+}
+
+.rounded-image {
+width: 100%;
+height: 300px;
+position: absolute;
+top: 135%;
+left: 0%;
+}
+
+
+.b-heading h1{
+    color:white;
+    font-size: x-large;
+    position: absolute;
+    top: 137%;
+    font-size:1.3rem;
+    font-weight: bolder;
+    text-align:center;
+    left: 1%;
+}
+
+.no{
+    display: none;
+}
+
+
+.test{
+position: absolute;
+top: 145%;
+left: -auto;
+width: 30%;
+display: block;
+margin: auto;
+
+}
+*{
+    padding: 0%;
+}
+
+.child{
+    width: 100%;
+   
+}
+
+.child:nth-child(3,4){
+    display: none;
+}
+
+
+#op img{
+    position: absolute;
+top: 10%;
+left: 13%;
+width: 50%;
+height: 50%;
+}
+
+#op .text{
+position: absolute;
+left: 5%;
+}
+
+
+#os img{
+    position: absolute;
+    right: 0%;
+    top: 10%;
+    width: 50%;
+    height: 50%;
+}
+
+#os .text{
+position: absolute;
+left: 18%;
+}
+
+
+
+.test{
+display: flex;
+gap: 0.1rem;
+width: 82%;
+left: 3%;
+
+}
+.child img{
+    top: -90%;
+width: 85px;
+}
+.text{
+    font-size: medium;
+    position: absolute;
+    top: 70%;
+    text-align: center;
+    left: 30%;
+}
+
+.top{
+    z-index: 3333333;
+    
+}
+.none{
+    display: none;
+    
+}
+.customer-images{
+top: 42%;
+width: 50%;
+left: 5%;
+}
+customer-img img{
+    width: 20px;
+    display: flex;
+    flex-direction: column;
+    
+    }
+    
+    .customer-img{
+        display:flex;
+        gap:8rem;
+    }
+    
+    .customer p{
+        font-size: x-large;
+    }
+    
+    .customer h2{
+        font-size: xx-large;
+    }
+.services h2{
+    font-size: larger;
+    position: absolute;
+    top: 0.5%;
+    left: 3%;
+
+}
+
+.s-card p{
+    font-size: medium;
+}
+
+.s-image img{
+    width: 100px;
+    height: 100px;
+}
+
+.s-cards{
+    gap: 0.5rem;
+    position: absolute;
+    top: 6%;
+    left: 6.5%;
+}
+
+
+.services{
+    height: 180%;
+    position: absolute;
+    top: 260%;
+}
+
+.s-card{
+    width: 90%;
+    height: 145px;
+padding: 0%;
+border-radius: 40px;
+box-shadow: 1px 1px 10px 1px black;
+border: none;
+}
+
+.video-section{
+    position: absolute;
+    top: 440%;
+    height: 500px;
+    left: 2%;
+    width: 100%;
+}
+
+.video-section video{
+    
+    width: 100%;
+    
+}
+
+.header-section{
+    display: none;
+}
+
+.square{
+    display: block;
+    position: absolute;
+    top: 470%;
+    width: 90%;
+    left: 4%;
+    border: 1px solid #D5D8DC ;
+
+    
+ height: 160px;   
+}
+
+.small-square{
+    border: 1px solid #D5D8DC ;
+  
+}
+
+.border{
+    border: 1px solid #D5D8DC ;
+    position: absolute;
+    top: 44%;
+}
+
+.border h2{
+    position: absolute;
+    left: 4%;
+}
+
+.box1 h2{
+    position: absolute;
+    left: 4%;
+}
+
+
+.box1{
+    border: 1px solid #D5D8DC ;
+    position: absolute;
+    top: 72.5%;
+}
+
+.square h2{
+    font-size: medium;
+    font-weight: 600;
+}
+
+.small-square h2{
+    color: #21A5D5;
+    
+
+}
+.small-square hr{
+    width: 99.5%;
+    border-color:#D5D8DC;
+    position: absolute;
+    top:25%;
+    left: 0%;
+}
+
+.e-title{
+    position: absolute;
+    top: 550%;
+    left: 4%;
+    font-size: x-large;
+    padding: 0.5rem;
+ border: none;
+    width: 90%;
+}
+
+.unique img {
+    height: 30%;
+    width: 170%;
+}
+
+
+.unique{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: -9%;
+    left: 52%;
+}
+
+.mobile-app{
+    width: 100%;
+    position: absolute;
+   top: -12.5%;
+font-size: 22px;
+left: -6%;
+}
+
+
+
+.android h1{
+    font-size: 2rem;
+    position: absolute;
+    top: -20%;
+}
+
+.android{
+    font-size: 2px;
+    font-weight: lighter;
+position: absolute;
+top: -14.5%;
+left: -6%;
+width: 100%;
+}
+
+.big-p br{
+    display: none;
+}
+
+
+.big-p p{
+    font-size:medium;
+}
+
+
+.big-p {
+    position: absolute;
+    top: -10.5%;
+    font-size: 1px;
+    left: 4%;
+    display: flex;
+    width: 100%;
+    
+    padding-right: 0.5rem;
+}
+
+.main-title{
+    position: absolute;
+    top: -24%;
+    left: 0%;
+}
+
+.big-p p{
+ font-size: px;   
+}
+#e-commerce{
+    font-size: medium;
+}
+#main-title{
+    font-size: 25px;
+}
+
+#mobile{
+    position: absolute;
+    left: 1%;
+    width: 70px;
+    height: 70px;
+    top:-18%;
+}
+
+.mobile-friendly{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    
+    top: -14%;
+    left: 6%;   
+}
+
+.mobile-friendly img{
+    height: 30%;
+    width: 170%;
+}   
+
+.monitor{
+    position: absolute;
+    left: 6%;
+    top: 27%;
+    
+}
+
+.monitor img{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+.lower{
+    position: absolute;
+    top:30%;
+    left: -33%;
+    font-size: 24px;
+    width: 100%;
+}
+
+.lower h3{
+
+font-size: 2rem;
+
+
+}
+
+
+
+
+.middle br{
+    display: none;
+}
+
+
+.middle{
+    position: absolute;
+    left: 4%;
+    top: 35%;
+    font-size: large;
+    text-align: start;
+    width: 100%;
+    
+
+}
+
+
+.middle p{
+font-size: medium;
+
+}
+
+
+
+.mb{
+    position: absolute;
+    top: 32.5%;
+    left: -32.5%;
+    font-size: 22px;
+    width: 100%;
+}
+
+
+.mb h4{
+    font-size: 1.2rem;
+}
+
+
+
+.kiosk-image img{
+    height: 30%;
+    width: 170%;
+}
+
+.kiosk-image{
+width: 50%;
+height: 50%;
+    position: absolute;
+    left: 5%;
+    top: 55%;
+}
+
+.kiosk-logo{
+    position: absolute;
+    top: 41.5%;
+    left: 1%;
+}
+
+.kiosk-heading{
+    position: absolute;
+    top: 45.5%;
+    left: 2.5%;
+}
+
+.kiosk-heading h3{
+    font-size: 2rem;
+}
+
+.kiosk-title{
+    position: absolute;
+    top: 48%;
+    left: 3%;
+}
+
+.kiosk-title h4{
+    font-size: 1.2rem;
+}
+
+
+.kiosk-content br{
+    display: none;
+}
+
+.kiosk-content p{
+font-size: medium;
+}
+
+.kiosk-content{
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    width: 100%;
+}
+.main-image{
+    position: absolute;
+    top: 50%;
+    height: 110%;
+}
+
+white-box{
+    
+position: absolute;
+top: 151%;
+width: 100%;
+color: transparent;
+color: wh;
+background-color: white;
+
+}
+white-boxe{
+   
+position: absolute;
+top: 155%;
+width: 100%;
+color: transparent;
+background-color: white;
+}
+
+.o-heading{
+    display: block;
+ z-index: 2222;
+    color: white;
+    position: absolute;
+top: 56%;
+font-size: 12px;
+width: 90%;
+left:12.5%;
+font-weight:bold;
+font-family: "Mulish", sans-serif;
+font-optical-sizing: auto;
+
+}
+
+.o-heading h1{
+    font-size: 1.5rem;
+}
+
+
+
+
+
+.o-heading h1{
+    font-weight : bold;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+}
+ 
+.o-paragraph br{
+    display: none;
+}
+
+.o-paragraph{
+    position: absolute;
+    top: 70%;
+    font-size: 14px;
+    line-height: 21px;
+    left: 0%;
+    padding-left: 1rem;
+width: 100%;
+padding-right: 15rem;
+}
+
+.o-paragraph p{
+font-size: 1rem;
+line-height: 150%;
+
+}
+
+
+.operations{
+    position: absolute;
+    top: 680%;
+}
+
+.managment{
+    text-align: center;
+    position: absolute;
+    left: 20%;
+    top: 70%;
+}
+
+.h-heading{
+    position: absolute;
+    top: 89%;
+    width: 100%;
+    font-size: 15px;
+    left: 8%;
+}
+.h-heading h1{
+    font-size: 1.5rem;
+}
+
+.h-list{
+    position: absolute;
+    top: 92%;
+    font-size: 20px;
+   width: 100%;
+}
+
+.h-list li{
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.o-image {
+    position: absolute;
+    top: 113.5%;
+    left: 20%;
+}
+
+.o-image img {
+    width: 250px;
+    height: 250px;
+}
+
+.o-button{
+    width: 50%;
+    
+    height: 0px;
+    position: absolute;
+    top: 143%;
+    left: 15%;
+}
+
+.o-button button{
+    display: block;
+   height: 50px;
+    padding: 0%;
+    width:100%;
+    font-size: medium;
+}
+
+
+.f-name{
+    width: 82%;
+    height: 30px;
+    padding: 1%;
+    font-size: 1rem;
+    position: absolute;
+    left: 6.5%;
+    top:25%;
+    border-radius: 2%;
+    
+}
+
+input{
+    border: 1px solid #343a40;
+}
+
+
+.f-mail{
+    position: absolute;
+    top:35%;
+}
+
+.f-subject{
+    position: absolute;
+    top: 45%;
+}
+
+.f-message{
+    position: absolute;
+    top: 55.5%;
+    height: 200px;
+}
+
+.f-message::placeholder{
+    transform: translateY(-80px);
+}
+
+
+.work{
+    position: absolute;
+    top:832%;
+ border: ;
+}
+
+
+.last-section{
+    position: absolute;
+    top: 1245%;
+    border: none;
+    width: 100%;
+    height: 500px;
+}
+.w-heading{
+    width: 100%;
+font-size: medium;
+position: absolute;
+left: -2%;
+padding: 10px;
+top: 1%;
+}
+
+.w-heading h1{
+    font-size: 1.7rem;
+    font-weight: lighter-bolder;
+}
+
+.kfc{
+    display: none;
+
+
+}
+
+.responsive{
+    width: 350px;
+    position: absolute;
+    left: -21%;
+}
+
+.left-arrow i{
+    display: inline-block;
+    color: gray;
+    font-size: xx-large;
+   
+    z-index: 222;
+    position: absolute;
+    left: -30%;
+    margin-top: 20%;
+
+    }
+.kiosk-logo img{
+width: 100px;
+height: 100px;
+
+}
+
+    .right-arrow i{
+        display: inline-block;
+        color: gray;
+        font-size: xx-large;
+    
+        z-index: 222;
+        position: absolute;
+        left: 53.5%;
+        margin-top: 20%;
+        
+
+        }
+
+.w-title{
+    position: absolute;
+    top: 6%;
+}
+
+.w-title h2{
+position: absolute;
+
+}
+
+    .circle{
+        font-size: xx-small;
+    }
+    
+.circles{
+    position: absolute;
+    top: 25%;
+ gap: 1rem;
+    left:42%;
+}
+
+.blogs-news{
+    position: absolute;
+    top: 900%;
+    width: 100%;
+    border: none;
+    height: 3300px;
+}
+
+.n-heading{
+    position: absolute;
+    left: 33.5%;
+    top: 1%;
+}
+
+
+
+
+.n-heading h1{
+    font-size: 1.5rem;
+}
+
+.n-title{
+    width: 100%;
+    position: absolute;
+    left:-5%;
+    top: 1.5%;
+    padding: 1rem;
+}
+
+
+.n-title h1{
+    font-size: 1.5rem;
+}
+
+.menu{
+    padding: 0%;
+}
+
+header{
+    height: 50px;
+}
+
+.socail-icons{
+    font-size: x-large;
+    gap: 2rem;
+}
+
+.logo img{
+    width: 40%;
+    height: 50px;
+    position: absolute;
+    left: -112%;
+    top: 50%;
+}
+
+.list-icon {
+    position: absolute;
+    top: 55%;
+}
+
+#c-heading{
+    font-size: 3rem;
+
+}
+
+.customer-text{
+    position: absolute;
+    left: 0%;
+    top: -10%;
+    padding:1rem;
+    border: none;
+}
+
+
+.i-text p{
+    font-size: large;
+}
+
+.i-text{
+    width: 100%;
+    position: absolute;
+    left: -4%;
+
+}
+.demo-button{
+    width: 100%;
+    position: absolute;
+    top: 32%;
+}
+.demo-button button{
+    font-size: 1rem;
+}
+
+
+
+
+
+.image{
+    width: 100%;
+    display: block;
+    height: 100%;
+    position: absolute;
+    left: 0%;
+}
+
+
+
+
+
+
+
+
+#tv-image{
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    top: 12%;
+    left: 1%;
+    padding: 1rem;
+}
+
+.rounded-image{
+    width: 100%;
+    position: absolute;
+    top: 110%;
+}
+
+.rounded-image img{
+    width: 100%;
+    height: 550px;
+}
+
+
+
+.mobile-app h4{
+    font-size: 1.2rem;
+    
+}
+
+.w-images img{
+    width: 350px;
+    height: 200px;
+   
+}
+
+.w-images{
+    position: absolute;
+    top: 11%;
+    left: 33%;
+}
+
+
+.b-card{
+    height: 400px;
+    width:70%;
+    position: absolute;
+    top:4%;
+    border-radius: 20% ;
+    left: 13%;
+    padding-bottom: 10%;
+    
+}
+
+.b- img{
+width: 100%;
+
+border-radius: 20% 20% 0px 0px ;
+object-fit: contain;
+position: absolute;
+left: 500%;
+top: 10%;
+}
+
+
+.comments p{
+    font-size: 1rem;
+    
+}
+
+.comments{
+    position: absolute;
+    bottom: -30%;
+    left: 50%;
+}
+.b-card hr{
+    width: 90%;
+    position: absolute;
+    right: 0%;
+}
+
+.circle-icon i{
+   font-size: 0.4rem;
+}
+
+.circle-icon{
+    position: absolute;
+    top: 92%;
+    right: 52%;
+}
+.read-more{
+    position: absolute;
+    bottom:7%;
+    left: 14%;
+}
+.read-more p{
+   font-size: small;
+}
+
+.date{
+    position: absolute;
+    bottom: 20%;
+    left: 8%;
+    width: 100%;
+}
+
+.date p{
+    font-size: medium;
+}
+
+.b-title{
+    position: absolute;
+    bottom: 5%;
+}
+
+
+
+.b-title p{
+
+    font-size: 1rem;
+}
+
+.card2{
+   display: block;
+    position: absolute;
+    top:19%;
+}
+
+
+.card3{
+    display: block;
+    position: absolute;
+    top:34%;
+}
+
+.card4{
+    display: block;
+    position: absolute;
+    top: 49%;
+}
+
+.card5{
+    display: block;
+    position: absolute;
+    top:64%;
+}
+
+.card6{
+    display: block;
+    position: absolute;
+    top:79%;
+}
+
+
+.b-image img{
+    display: none;
+}
+
+.m-image {
+display: block;
+height: 200px;
+width: 100%;
+
+z-index: 222;
+position: absolute;
+}
+
+.btn{
+    width: 100%;
+   
+   position: absolute;
+   bottom: 4%;
+   left: 30%;
+}
+
+.btn button{
+    display: block;
+   
+   
+    font-size: large;
+    padding: 5%;
+    width: 150px;
+    height: 20px;
+    padding-bottom: 8%;
+z-index: 222222;
+}
+
+.m-image img{
+    border-radius: 20% 20%  0 0;
+    position: absolute;
+    top:-1%;
+    width:100%;
+left:0%;
+object-fit: contain;
+}
+
+.l-heading{
+    width: 100%;
+    
+}
+
+.l-heading h1{
+    font-size: 2rem;
+    text-align: center;
+}
+.l-title{
+    width: 100%;
+    position: absolute;
+    top:12%;
+    left:-1%;
+    
+}
+
+.l-title h2{
+font-size: 1rem;
+text-align: center;
+}
+
+.l-btn{
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 18%;
+    left: 25%;
+}
+
+.l-btn button{
+    display: block;
+    width: 50%;
+    height: 50px;
+    font-size: 1.2rem;
+    padding: 0%;
+}
+
+.footer{
+    width: 25.2%;
+    height: max-content;
+    position: absolute;
+    top: 1310%;
+    left:0%;
+}
+.f-icons{
+   gap: 1.5rem;
+}
+
+.f-icons i{
+    font-size: 1.5rem;
+    
+}
+
+.footer h1{
+    display: block;
+    font-size: 2rem;
+    position: absolute;
+    left: 22%;
+    font-weight: bold;
+}
+
+.links{
+    position: absolute;
+    top: 1335%;
+    left: 0%;
+    height:850px;
+}
+
+.l-image{
+    width: 80%;
+    position: absolute;
+    left: 4%;
+    top:5%;
+}
+
+.l-image img{
+    width: 100px;
+}
+
+.solutions{
+width: 80%;
+
+position: absolute;
+top: 0%;
+left:33%;
+}
+
+
+.sol-heading{
+    position: absolute;
+    top: 5%;
+}
+
+.sol-heading h1{
+    font-size: 1.5rem;
+}
+
+.l-items{
+    
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+.l-items li{
+    font-size: 1rem;
+    line-height: 150%;
+}
+
+
+.products{
+    position: absolute;
+ top: 35%;
+    left: 4%;
+}
+
+.pol-heading h1{
+    font-size: 1.5rem;
+}
+
+.p-items{
+    width: 1000%;
+position: absolute;    
+top:5%;
+    
+}
+
+.p-items li{
+    font-size: 1rem;
+     
+}
+
+/*  */
+
+.a-heading{
+    width: 200%;
+}
+
+.a-heading h1{
+    font-size: 1.5rem;
+}
+
+.a-items{
+    width: 1000%;
+    position: absolute;
+left: -148%;
+top: 5%;
+}
+
+.about{
+    position: absolute;
+    top: 55%;
+    left: 35%;
+}
+
+.rights{
+    width: 100%;
+   
+    height: 100px;
+    position: absolute;
+    top: 1415%;
+    left: 0%;
+}
+
+.rights h1{
+    font-size: 0.9rem;
+}
+
+.rights i{
+    font-size: 0.9rem;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

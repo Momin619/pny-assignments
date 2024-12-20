@@ -1,0 +1,17 @@
+.container {
+  background-color: blue;
+  width: 70%;
+  height: 100vh;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.item {
+  background-color: blueviolet;
+  height: 64px;
+  width: 64px;
+  color: white;
+  text-align: center;
+}

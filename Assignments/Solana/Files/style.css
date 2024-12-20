@@ -1,0 +1,3183 @@
+/* Styling section */
+header {
+  width: 100%;
+  height: 80px;
+  background-color: #121212;
+
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  z-index: 222;
+}
+.solana {
+  width: 100%;
+  height: 25px;
+
+  position: absolute;
+  top: 30%;
+  left: 12%;
+}
+
+.menu {
+  width: 100%;
+
+  height: 30px;
+  position: absolute;
+  left: 37%;
+}
+
+.menu-items {
+  width: 100%;
+
+  height: 30px;
+  display: flex;
+}
+
+.list-items {
+  display: flex;
+  color: #848895;
+  gap: 3rem;
+  list-style: none;
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+}
+
+.list-items button {
+  width: 120px;
+  background-color: black;
+  height: 25px;
+  padding: 1.3rem;
+  border: 1px solid #848895;
+  color: #848895;
+  font-family: "Roboto", sans-serif;
+  border-radius: 6.4px;
+  position: absolute;
+  right: -30%;
+  top: -100%;
+}
+
+.list-items button h2 {
+  position: absolute;
+  font-family: "Roboto", sans-serif;
+  top: -20%;
+  font-weight: lighter;
+  right: 10%;
+}
+
+.list-items button i {
+  color: #848895;
+  font-size: 1.3rem;
+  position: absolute;
+  left: 10%;
+  top: 20%;
+}
+
+.list-items li:hover {
+  color: white;
+  transition: 0.1s all;
+}
+
+button:hover {
+  border-color: #5468ff;
+  border: 3px solid #5468ff;
+  color: white;
+}
+
+button:hover i {
+  color: white;
+}
+
+.media-icons,
+.search-icon,
+.menu-icon {
+  display: none;
+}
+
+.images-section {
+  width: 100%;
+  height: 800px;
+
+  position: absolute;
+  top: 9%;
+  left: 0%;
+  background-color: #121212;
+}
+
+.m-image {
+  rotate: 10deg;
+  position: absolute;
+  left: -42%;
+  top: -20%;
+}
+
+.l-image {
+  position: absolute;
+  right: -62%;
+  top: 0%;
+}
+
+.main-heading {
+  height: 150px;
+
+  width: 100%;
+
+  position: absolute;
+  top: 10%;
+  left: 22%;
+}
+
+.main-heading h1 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 4.5rem;
+}
+
+.l-heading {
+  width: 100%;
+  height: 30px;
+
+  position: absolute;
+  top: 52%;
+  left: 7%;
+}
+
+.main-title {
+  width: 100%;
+  height: 50px;
+  left: -2%;
+  font-size: 0.8rem;
+  position: absolute;
+  bottom: 55%;
+  color: #d0d0dc;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  line-height: 2rem;
+}
+
+.building {
+  width: 85%;
+
+  height: 40px;
+  position: absolute;
+  bottom: 42%;
+  left: 1%;
+}
+
+.building button {
+  height: 50px;
+  background-image: linear-gradient(to right, #ba5cea, #6120ab, #330f5f);
+  padding: 0 1rem;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  display: block;
+  margin: auto;
+  border: none;
+  border-radius: 30px;
+
+  font-size: 1rem;
+}
+.building button p {
+  font-weight: 500;
+}
+
+.building:hover button {
+  background: white;
+  color: black;
+}
+
+.docs {
+  width: 50%;
+  height: 50px;
+
+  position: absolute;
+  top: 53%;
+  left: 50%;
+}
+.docs button {
+  padding: 0 1rem;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  height: 50px;
+
+  border: 1px solid white;
+  border-radius: 30px;
+  background-color: transparent;
+}
+
+.docs button:hover {
+  background-color: white;
+  color: black;
+}
+
+.bottom-icons {
+  width: 100%;
+  height: 100px;
+  left: -2.2%;
+  position: absolute;
+  bottom: 17%;
+}
+
+.bottom-icons h2 {
+  color: #64a9f2;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.main-images {
+  width: 100%;
+
+  height: 60px;
+  position: absolute;
+  top: 82%;
+  left: -5%;
+}
+
+.circle {
+  width: 10%;
+  position: absolute;
+  top: 30%;
+  height: 60px;
+  left: 18%;
+}
+
+.discord {
+  position: absolute;
+  top: 30%;
+  height: 100px;
+  left: 28%;
+  width: 100%;
+}
+
+.google {
+  width: 100%;
+  height: 40px;
+
+  position: absolute;
+  left: 40%;
+  top: 25%;
+}
+
+.jump {
+  width: 100%;
+  height: 30px;
+
+  position: absolute;
+  top: 25%;
+  left: 48%;
+}
+
+.magic-eden {
+  width: 100%;
+
+  position: absolute;
+  left: 56%;
+  top: 25%;
+}
+
+.meta {
+  width: 100%;
+  height: 20px;
+
+  position: absolute;
+  left: 67%;
+  top: 27%;
+}
+
+.shopify {
+  width: 100%;
+
+  position: absolute;
+  left: 77%;
+  top: 20%;
+}
+
+.stripe {
+  width: 100%;
+
+  position: absolute;
+  left: 84%;
+  top: 20%;
+}
+
+.slider {
+  background-color: #1b1622;
+  width: 65%;
+  height: 400px;
+  border-radius: 8px;
+  position: absolute;
+  top: 2%;
+  left: 16%;
+  display: block;
+
+  margin: auto;
+}
+.slider-parent {
+  width: 100%;
+  height: 500px;
+  background-color: #121212;
+
+  position: absolute;
+  bottom: -80%;
+  left: 0%;
+}
+
+.slider img {
+  position: absolute;
+  bottom: 20%;
+  left: 5%;
+  border-radius: 8px;
+}
+
+.slider-heading {
+  width: 100%;
+
+  position: absolute;
+  bottom: 50%;
+  right: -25%;
+}
+
+.slider-heading h1 {
+  font-family: "Roboto", sans-serif;
+  color: #9b9bac;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: lighter;
+}
+#none {
+  display: none;
+}
+
+.slider-title {
+  width: 100%;
+
+  position: absolute;
+  bottom: 29%;
+  right: -27%;
+  padding: 1rem;
+}
+
+.slider-title h3 {
+  color: #9b9bac;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9rem;
+  text-align: center;
+  line-height: 30px;
+  font-weight: 600;
+}
+
+.pay-btn {
+  width: 100%;
+}
+
+.pay-btn button {
+  background-image: linear-gradient(to right, #77d5fb, #7fe9fe, #29f0a9);
+  padding: 0.5rem;
+  border: none;
+  font-size: 1rem;
+  text-transform: uppercase;
+  position: absolute;
+  right: 20%;
+  top: 18%;
+  border-radius: 9999px;
+  color: #1b1622;
+}
+
+.read-btn {
+  width: 100%;
+  display: flex;
+
+  position: absolute;
+  right: -70%;
+  bottom: 20%;
+}
+
+.read-btn i {
+  font-size: 1rem;
+  position: absolute;
+  right: 91.5%;
+  top: 20%;
+}
+
+.read-btn button {
+  width: 10%;
+  padding: 0.5rem;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 9999px;
+  text-align: left;
+  padding-left: 1rem;
+}
+
+.read-btn button:hover {
+  background-color: white;
+  color: black;
+}
+
+.read-btn button:hover i {
+  color: black;
+}
+
+span:hover {
+  color: white;
+}
+
+#c-icon {
+  width: 100%;
+  top: 30%;
+  position: absolute;
+  display: block;
+  margin-left: 100%;
+}
+
+#c-icon:hover {
+  color: white;
+}
+
+.ds-icon {
+  position: absolute;
+  top: 0%;
+  display: block;
+  margin-left: -6%;
+  margin-top: 12%;
+  z-index: 222;
+}
+
+.oval {
+  display: flex;
+  gap: 1rem;
+  font-size: x-small;
+  color: #9b9bac;
+  position: absolute;
+
+  bottom: 10%;
+  left: 45%;
+}
+
+.community {
+  width: 100%;
+  height: 740px;
+  background-color: #121212;
+
+  position: absolute;
+  bottom: -158%;
+  left: 0%;
+}
+
+.community-title {
+  width: 100%;
+  position: absolute;
+  right: -11%;
+  top: 20%;
+}
+
+.community-title h1 {
+  color: white;
+  font-size: 2.5rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.community-content {
+  width: 100%;
+
+  height: 200px;
+  position: absolute;
+  right: -55%;
+  top: 20%;
+}
+
+.paying-fee {
+  width: 100%;
+  height: 70px;
+
+  position: absolute;
+  top: -30%;
+}
+
+.paying-fee h1 {
+  background-image: linear-gradient(#f087ff, #8e39da);
+  color: transparent;
+  -webkit-background-clip: text;
+  font-size: 96px;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+}
+
+.paying-fee p {
+  color: #848895;
+  font-size: 1.3rem;
+
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+
+  top: 230%;
+}
+
+.nfts {
+  width: 100%;
+  height: 70px;
+  position: absolute;
+  bottom: -10%;
+}
+
+.nfts h1 {
+  background-image: linear-gradient(#1fcff1, #225dbe);
+  color: transparent;
+  -webkit-background-clip: text;
+  font-size: 96px;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+}
+
+.nfts p {
+  color: #848895;
+  font-size: 1.3rem;
+
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  top: 238%;
+  left: 0%;
+}
+
+.transaction {
+  width: 100%;
+  height: 70px;
+
+  position: absolute;
+  bottom: -110%;
+  left: 0%;
+}
+
+.transaction h1 {
+  background-image: linear-gradient(#19fb9b, #10837c);
+  color: transparent;
+  -webkit-background-clip: text;
+  font-size: 96px;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+}
+
+.transaction p {
+  color: #848895;
+  font-size: 1.3rem;
+
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  top: 255%;
+}
+
+.mass-adoption {
+  width: 100%;
+  height: 1000px;
+
+  position: absolute;
+  background-color: #121212;
+  bottom: -290%;
+  left: 0%;
+}
+
+.curve-image {
+  width: 100%;
+
+  position: absolute;
+  top: 14%;
+  right: 0%;
+}
+
+.media-curve-image {
+  display: none;
+}
+
+.mass-adoption-title {
+  width: 100%;
+
+  height: 100px;
+  position: absolute;
+  bottom: 70%;
+  left: 10%;
+}
+
+.mass-adoption-title h1 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5rem;
+  font-weight: lighter;
+}
+
+.mass-adoption-info {
+  width: 100%;
+
+  position: absolute;
+  bottom: 60%;
+  left: 10.5%;
+}
+
+.movable-card {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 40%;
+  top: -40%;
+}
+
+.moving-card {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 40%;
+
+  bottom: -28%;
+}
+
+.going-card {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: -66.5%;
+  top: -55%;
+}
+
+.mass-adoption-info p {
+  color: #848895;
+  font-size: 0.7rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.mass-adoption-info i {
+  color: #22ccee;
+  font-size: 3.5px;
+  position: absolute;
+  top: 20 / %;
+  left: -0.4%;
+}
+
+.mass-cards {
+  width: 100%;
+
+  position: absolute;
+  bottom: 0%;
+  height: 500px;
+}
+
+.mass-card {
+  width: 21%;
+
+  height: 268px;
+  padding: 1.5rem;
+  background-color: #090909;
+  color: white;
+  border-radius: 8px;
+  z-index: 222;
+}
+.mass-card hr {
+  width: 1.8%;
+  rotate: 90deg;
+  border-color: #22ccee;
+  position: absolute;
+  left: 1%;
+  top: 8.5%;
+}
+
+.m-card-heading {
+  width: 100%;
+  height: 25px;
+
+  position: absolute;
+  left: 3%;
+  top: 3%;
+}
+
+.m-card-heading h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+}
+
+.m-icon {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  border: 1px soid red;
+  bottom: -10%;
+}
+
+.m-content {
+  width: 100%;
+  position: absolute;
+  bottom: 59%;
+  left: 2%;
+}
+
+.m-content p {
+  color: #d0d0dc;
+  font-family: "Roboto", sans-serif;
+  line-height: 150%;
+  font-size: 1.1rem;
+}
+
+.m-icon {
+  height: 30px;
+  width: 100%;
+  position: absolute;
+  top: 40%;
+}
+
+.m-icon h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  position: absolute;
+  left: 1.2%;
+}
+
+.m-icon p {
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  bottom: -234%;
+  font-size: 0.7rem;
+  left: 0.5%;
+}
+
+.m-icon i {
+  color: #22ccee;
+  font-size: 7px;
+  position: absolute;
+  top: 85%;
+  left: 0.4%;
+}
+
+.s-card {
+  width: 21%;
+
+  height: 268px;
+  padding: 1.5rem;
+  background-color: #090909;
+  color: white;
+  border-radius: 8px;
+  z-index: 2222;
+}
+
+.s-card-heading {
+  width: 100%;
+  height: 25px;
+  position: absolute;
+  left: 3%;
+  top: 0%;
+}
+
+.s-card-heading h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+}
+
+.s-card hr {
+  width: 1.8%;
+  rotate: 90deg;
+  border-color: #9945ff;
+  position: absolute;
+  left: 1%;
+  top: 5.5%;
+}
+
+.s-content {
+  width: 100%;
+  position: absolute;
+  top: 10%;
+  left: 1.8%;
+}
+
+.s-content p {
+  color: #d0d0dc;
+  font-family: "Roboto", sans-serif;
+  line-height: 150%;
+  font-size: 1.1rem;
+}
+
+.s-icon {
+  position: absolute;
+  bottom: 45%;
+}
+
+.s-icon i {
+  color: #9945ff;
+  font-size: 8px;
+  position: absolute;
+  top: -75%;
+  left: 3%;
+}
+
+.s-icon h1 {
+  position: absolute;
+  left: 12%;
+  top: -180%;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+}
+
+.s-icon p {
+  font-family: "Roboto", sans-serif;
+  font-size: 11.2px;
+}
+
+.d-card {
+  width: 21%;
+
+  height: 268px;
+  padding: 1.5rem;
+  background-color: #090909;
+  color: white;
+  border-radius: 8px;
+}
+
+.d-card-heading {
+  width: 100%;
+  height: 25px;
+  position: absolute;
+  left: 3%;
+  top: 2%;
+}
+
+.d-card-heading h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+}
+
+.d-card hr {
+  width: 1.8%;
+  rotate: 90deg;
+  border-color: #ff744a;
+  position: absolute;
+  left: 1%;
+  top: 7.8%;
+}
+.d-content {
+  width: 100%;
+  position: absolute;
+  top: 12%;
+  left: 1.8%;
+}
+
+.d-content p {
+  color: #d0d0dc;
+  font-family: "Roboto", sans-serif;
+  line-height: 150%;
+  font-size: 1.1rem;
+}
+
+.d-icon h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  position: absolute;
+  bottom: 20%;
+  left: -0.4%;
+}
+
+.d-icon p {
+  font-family: "Roboto", sans-serif;
+  font-size: 11.2px;
+  position: absolute;
+  bottom: 7%;
+  left: -1%;
+}
+.d-icon i {
+  color: #ff744a;
+  font-size: 8px;
+  position: absolute;
+  bottom: 65%;
+  left: -1%;
+}
+
+.d-icon {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  top: 41%;
+  left: 3%;
+}
+
+.simple-card {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: -66.5%;
+  top: 13.8%;
+}
+
+.e-card {
+  width: 21%;
+
+  height: 268px;
+  padding: 1.5rem;
+  padding-bottom: 4rem;
+  background-color: #090909;
+  color: white;
+  border-radius: 8px;
+}
+
+.e-card-heading {
+  width: 100%;
+  height: 25px;
+  position: absolute;
+  left: 3%;
+  top: 1.3%;
+}
+
+.e-card-heading h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+}
+
+.e-card hr {
+  width: 1.8%;
+  rotate: 90deg;
+  border-color: #89f8ca;
+  position: absolute;
+  left: 1%;
+  top: 7%;
+}
+
+.e-content {
+  width: 100%;
+  position: absolute;
+  top: 13%;
+  left: 1.8%;
+}
+
+.e-content p {
+  color: #d0d0dc;
+  font-family: "Roboto", sans-serif;
+  line-height: 150%;
+  font-size: 1.1rem;
+}
+#zero {
+  font-size: 2rem;
+}
+.e-icon {
+  width: 10%;
+  height: 100px;
+  position: absolute;
+  top: 52%;
+  left: 2%;
+}
+
+.e-icon p {
+  font-family: "Roboto", sans-serif;
+  font-size: 11.2px;
+  position: absolute;
+  bottom: 40%;
+  left: -0.3%;
+}
+
+.e-icon:hover h3 {
+  color: #89f8ca;
+  transition: 0.3s all;
+}
+
+.e-icon:hover i {
+  color: #89f8ca;
+  transition: 0.3s all;
+}
+
+.e-icon h3 {
+  position: absolute;
+  font-family: "Roboto", sans-serif;
+  bottom: 0%;
+  font-weight: lighter;
+  left: -0.3%;
+}
+.e-icon i {
+  position: absolute;
+  bottom: 20%;
+
+  left: 80%;
+}
+
+.real-world-section {
+  width: 100%;
+  height: 1200px;
+  background-color: #121212;
+  z-index: 2222;
+  position: absolute;
+  bottom: -445%;
+  left: 0%;
+}
+
+.real-world-heading {
+  width: 100%;
+
+  position: absolute;
+  left: 12%;
+  top: 9%;
+}
+.real-world-heading h4 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 42px;
+}
+
+.goto-btn {
+  width: 100%;
+
+  height: 100px;
+  position: absolute;
+  right: -74%;
+  top: 13.5%;
+}
+
+.goto-btn button p {
+  position: absolute;
+  font-family: "Roboto", sans-serif;
+  top: 0%;
+}
+
+.goto-btn button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid transparent;
+}
+
+.goto-btn button:hover i {
+  color: black;
+}
+
+.goto-btn button i {
+  position: absolute;
+  top: 13%;
+  left: 11%;
+}
+
+.goto-btn button {
+  width: 13.5%;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  height: 20px;
+  padding: 1rem;
+  padding-bottom: 1.5rem;
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 9999px;
+}
+
+.real-world-cards {
+  width: 76%;
+  height: 600px;
+
+  position: absolute;
+  bottom: 29%;
+  display: flex;
+  flex-wrap: wrap;
+  left: 12%;
+  gap: 1.5rem;
+}
+
+.xp-card {
+  width: 100%;
+
+  height: 50%;
+  border-radius: 15px;
+}
+
+.xp-card img {
+  filter: brightness(0.5);
+}
+
+.xp-card:hover img {
+  filter: brightness(1);
+  transition: 0.5s all;
+}
+
+.boba-card img {
+  filter: brightness(0.5);
+}
+
+.boba-card:hover img {
+  filter: brightness(1);
+  transition: 0.5s all;
+}
+
+.home-card img {
+  filter: brightness(0.5);
+}
+
+.home-card:hover img {
+  filter: brightness(1);
+  transition: 0.5s all;
+}
+
+.hive-mapper-card img {
+  filter: brightness(0.5);
+}
+
+.hive-mapper-card:hover img {
+  filter: brightness(1);
+  transition: 0.5s all;
+}
+
+.xp-card img {
+  object-fit: cover;
+  border-radius: 15px;
+}
+.case-study-btn {
+  width: 100%;
+  height: 40px;
+
+  left: 4%;
+  position: absolute;
+  top: 8%;
+}
+
+.case-study-btn button {
+  padding: 1rem;
+  background-color: #9945ff;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 9999px;
+  font-family: "Roboto", sans-serif;
+  border: none;
+}
+
+.xp-title {
+  width: 100%;
+  height: 50px;
+
+  position: absolute;
+  bottom: 78%;
+  left: 5%;
+}
+
+.xp-title h2 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5rem;
+}
+
+.xp-content {
+  width: 100%;
+  height: 20px;
+
+  position: absolute;
+  top: 28%;
+  left: 5%;
+}
+
+.xp-content p {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+.xp-content i {
+  font-size: xx-large;
+  color: white;
+  position: absolute;
+
+  bottom: -410%;
+}
+
+.xp-content i:hover {
+  color: black;
+}
+
+.xp-content br {
+  display: none;
+}
+
+.boba-card {
+  width: 32%;
+
+  height: 300px;
+  border-radius: 15px;
+}
+
+.boba-card img {
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.boba-study-btn button {
+  padding: 0.7rem;
+  background-color: #9945ff;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 9999px;
+  font-family: "Roboto", sans-serif;
+  border: none;
+}
+
+.boba-study-btn {
+  width: 100%;
+  height: 40px;
+
+  left: 4%;
+  position: absolute;
+  top: 65%;
+}
+
+.boba-title {
+  width: 100%;
+  height: 50px;
+
+  position: absolute;
+  bottom: 21.5%;
+  left: 4%;
+}
+
+.boba-title h2 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+}
+
+.boba-content {
+  width: 100%;
+  height: 20px;
+
+  position: absolute;
+  top: 80%;
+  left: 4.2%;
+}
+
+.boba-content p {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  line-height: 150%;
+}
+.boba-content i {
+  font-size: xx-large;
+  color: white;
+  position: absolute;
+  right: 74%;
+  bottom: 90%;
+}
+
+.boba-content i:hover {
+  color: black;
+}
+
+.home-card {
+  width: 32%;
+
+  height: 300px;
+  border-radius: 15px;
+}
+
+.home-card img {
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.home-study-btn {
+  width: 100%;
+  height: 40px;
+
+  left: 38%;
+  position: absolute;
+  top: 66%;
+}
+
+.home-study-btn button {
+  padding: 0.7rem;
+  background-color: #9945ff;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 9999px;
+  font-family: "Roboto", sans-serif;
+  border: none;
+}
+
+.home-title h2 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+}
+
+.home-title {
+  width: 100%;
+  height: 50px;
+
+  position: absolute;
+  bottom: 21.5%;
+  left: 38%;
+}
+
+.home-content {
+  width: 100%;
+  height: 20px;
+
+  position: absolute;
+  top: 80%;
+  left: 38%;
+}
+
+.home-content p {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  line-height: 150%;
+}
+.home-content i {
+  font-size: xx-large;
+  color: white;
+  position: absolute;
+  right: 74%;
+  bottom: 90%;
+}
+
+.home-content i:hover {
+  color: black;
+}
+
+.hive-mapper-card {
+  width: 32%;
+
+  height: 300px;
+  border-radius: 15px;
+}
+
+.hive-mapper-card img {
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.hive-mapper-study-btn {
+  width: 100%;
+  height: 40px;
+
+  left: 72%;
+  position: absolute;
+  top: 66%;
+}
+
+.hive-mapper-study-btn button {
+  padding: 0.7rem;
+  background-color: #9945ff;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 9999px;
+  font-family: "Roboto", sans-serif;
+  border: none;
+}
+
+.hive-mapper-content {
+  width: 100%;
+  height: 20px;
+
+  position: absolute;
+  top: 80%;
+  left: 72%;
+}
+
+.hive-mapper-content p {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.hive-mapper-title h2 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+}
+
+.hive-mapper-title {
+  width: 100%;
+  height: 50px;
+
+  position: absolute;
+  bottom: 21.5%;
+  left: 72%;
+}
+
+.hive-mapper-content i {
+  font-size: xx-large;
+  color: white;
+  position: absolute;
+  left: 23.5%;
+
+  bottom: 90%;
+}
+
+.hive-mapper-content i:hover {
+  color: black;
+}
+
+.growth-section {
+  width: 100%;
+  height: 700px;
+  background-color: #121212;
+  position: absolute;
+  bottom: -520%;
+  z-index: 2222;
+  left: 0%;
+  padding-bottom: 12rem;
+}
+
+.g-heading {
+  width: 100%;
+  height: 30px;
+
+  position: absolute;
+  top: 10%;
+  left: 12%;
+}
+
+.g-heading h4 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 42px;
+}
+
+.flex-buttons {
+  width: 100%;
+  height: 100px;
+
+  position: absolute;
+  right: -56.5%;
+  top: 19%;
+}
+
+.f-buttons {
+  width: 100%;
+
+  display: flex;
+  gap: 1rem;
+}
+
+.f-buttons button {
+  background-color: #221c2a;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  padding: 0.6rem 1.5rem;
+  border-radius: 30px;
+  filter: brightness(0.5);
+}
+
+.f-buttons button:hover {
+  filter: brightness(1);
+}
+
+#border {
+  border: 1px solid #bf56ff;
+}
+
+.main-parent {
+  width: 76%;
+  height: 450px;
+  display: flex;
+  position: absolute;
+  bottom: 17%;
+  left: 12%;
+
+  background-color: #121212;
+}
+
+.left-section {
+  width: 50%;
+
+  height: 100%;
+}
+.left-section img {
+  object-fit: cover;
+}
+
+.right-section {
+  width: 50%;
+  height: 450px;
+
+  background-color: #1d1a23;
+}
+
+.inner-section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  position: absolute;
+  bottom: 10%;
+  padding: 2rem;
+}
+
+.inner-section p {
+  color: #d0d0dc;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  line-height: 140%;
+}
+
+.inner-section h4 {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  color: #d0d0dc;
+}
+
+.inner-section h4:hover {
+  color: #a5f0fc;
+  transition: 0.4s all;
+}
+
+.non-breaking-space {
+  display: none;
+}
+
+.symbols {
+  position: absolute;
+  bottom: 8%;
+  width: 100%;
+  background-color: #121212;
+  display: flex;
+  gap: 3rem;
+  justify-content: space-around;
+}
+
+.symbols img {
+  object-fit: contain;
+  width: 8%;
+}
+
+.grid {
+  width: 100%;
+  height: 700px;
+
+  background-color: #121212;
+  position: absolute;
+  top: 620%;
+  z-index: 3333;
+  left: 0%;
+}
+
+.grid-heading {
+  width: 100%;
+  height: 30px;
+
+  position: absolute;
+  left: 12%;
+}
+
+.grid-heading h4 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 42px;
+}
+
+.main-grid {
+  width: 100%;
+  height: 500px;
+  background-color: #121212;
+
+  position: absolute;
+  bottom: 5%;
+  display: grid;
+  grid-template-columns: 250px 250px 250px 250px 250px 250px;
+  gap: 1rem;
+}
+
+.child img {
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.child {
+  background-color: blue;
+  border-radius: 8px;
+}
+
+.child1 {
+  grid-column: 1/3;
+  grid-row: 1/3;
+}
+
+.child3 {
+  grid-row: 1/3;
+  grid-column: 4/5;
+}
+
+.child5 {
+  grid-row: 1/3;
+  grid-column: 6/7;
+}
+
+.media-only-img {
+  display: none;
+}
+
+.child1 {
+  color: wheat;
+}
+
+.child1:hover h2 {
+  opacity: 1;
+  transition: 0.5s all;
+}
+
+.child1:hover p {
+  opacity: 1;
+  transition: 0.5s all;
+}
+
+.child1:hover img {
+  filter: brightness(0.5);
+  transition: 0.5s all;
+}
+
+.child1 h2 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  top: 70%;
+  left: 2%;
+  opacity: 0;
+}
+
+.child1 p {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  top: 80%;
+  opacity: 0;
+  left: 2%;
+
+  line-height: 150%;
+}
+.child2:hover h3 {
+  opacity: 1;
+  transition: 0.5s all;
+}
+
+.child2:hover p {
+  opacity: 1;
+  transition: 0.5s all;
+}
+
+.child2:hover img {
+  filter: brightness(0.5);
+  transition: 0.5s all;
+}
+
+.child2 h3 {
+  color: white;
+  opacity: 0;
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  top: 13%;
+  right: 51%;
+  font-size: 1.3rem;
+}
+
+.child2 p {
+  color: white;
+  opacity: 0;
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  top: 23%;
+  line-height: 150%;
+  right: 50.7%;
+  font-size: 0.85rem;
+}
+
+.child6 h3 {
+  color: white;
+  opacity: 0;
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  top: 60%;
+  right: 51.3%;
+  font-size: 1.3rem;
+}
+
+.child6 p {
+  color: white;
+  opacity: 0;
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  top: 71%;
+  line-height: 150%;
+  right: 50.8%;
+  font-size: 0.85rem;
+}
+
+.child6:hover h3 {
+  opacity: 1;
+  transition: 0.5s all;
+}
+
+.child6:hover p {
+  opacity: 1;
+  transition: 0.5s all;
+}
+
+.child6:hover img {
+  filter: brightness(0.5);
+  transition: 0.5s all;
+}
+
+.child3 h3 {
+  color: white;
+  opacity: 0;
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  top: 60%;
+  line-height: 150%;
+  right: 35%;
+  font-size: 1.4rem;
+}
+
+.child3 p {
+  color: white;
+  opacity: 0;
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  top: 71%;
+  line-height: 150%;
+  right: 35%;
+}
+
+.child3:hover h3 {
+  opacity: 1;
+  transition: 0.5s all;
+}
+
+.child3:hover p {
+  opacity: 1;
+  transition: 0.5s all;
+}
+
+.child3:hover img {
+  filter: brightness(0.5);
+  transition: 0.5s all;
+}
+
+.child5 h3 {
+  color: white;
+  opacity: 0;
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  top: 59%;
+  line-height: 150%;
+  right: 6%;
+  font-size: 1.4rem;
+}
+.child5 p {
+  color: white;
+  opacity: 0;
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  top: 71%;
+  line-height: 150%;
+  right: 1.2%;
+}
+
+.child5:hover h3 {
+  opacity: 1;
+  transition: 0.5s all;
+}
+
+.child5:hover p {
+  opacity: 1;
+  transition: 0.5s all;
+}
+
+.child5:hover img {
+  filter: brightness(0.5);
+  transition: 0.5s all;
+}
+
+.child4 h3 {
+  color: white;
+  opacity: 0;
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  top: 8%;
+  right: 18%;
+  font-size: 1.2rem;
+}
+
+.child4 p {
+  color: white;
+  opacity: 0;
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  top: 18%;
+  line-height: 150%;
+  right: 18.5%;
+  font-size: 0.85rem;
+}
+
+.child4:hover h3 {
+  opacity: 1;
+  transition: 0.5s all;
+}
+
+.child4:hover p {
+  opacity: 1;
+  transition: 0.5s all;
+}
+
+.child4:hover img {
+  filter: brightness(0.5);
+  transition: 0.5s all;
+}
+
+.child7 h3 {
+  color: white;
+  opacity: 0;
+
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  top: 52%;
+  right: 23%;
+  font-size: 1.2rem;
+}
+
+.child7 p {
+  color: white;
+  opacity: 0;
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  top: 66%;
+  line-height: 150%;
+  right: 17.5%;
+  font-size: 0.85rem;
+}
+
+.child7:hover h3 {
+  opacity: 1;
+  transition: 0.5s all;
+}
+
+.child7:hover p {
+  opacity: 1;
+  transition: 0.5s all;
+}
+
+.child7:hover img {
+  filter: brightness(0.5);
+  transition: 0.5s all;
+}
+
+.join {
+  width: 100%;
+  height: 600px;
+  background-color: #121212;
+  position: absolute;
+
+  top: 711%;
+  left: 0%;
+  z-index: 22222;
+}
+
+.j-image {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  bottom: -5%;
+}
+
+.j-image img {
+  object-fit: contain;
+}
+
+#js-img {
+  display: none;
+}
+
+.j-card {
+  width: 80%;
+  height: 400px;
+  background-color: #1c1c1c;
+  position: absolute;
+  right: 10%;
+  border-radius: 10px;
+  bottom: 15%;
+  opacity: 1;
+  padding-top: 1.5rem;
+}
+
+.j-card h1 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.j-card button {
+  height: 50px;
+  background-image: linear-gradient(to right, #ba5cea, #6120ab, #330f5f);
+  padding: 0 1rem;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  display: block;
+  margin: auto;
+  border: none;
+  border-radius: 30px;
+  position: absolute;
+  left: 42%;
+  font-size: 1rem;
+}
+
+.j-card button:hover {
+  background: white;
+  color: black;
+}
+
+.foot {
+  width: 100%;
+  height: 500px;
+  background-color: #000000;
+  opacity: 1;
+  position: absolute;
+  top: 790%;
+
+  z-index: 2224442;
+  left: 0%;
+}
+
+.foot-image img {
+  position: absolute;
+  left: 10%;
+  top: 20%;
+}
+
+.foot-image h1 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  font-size: 1rem;
+  text-transform: capitalize;
+
+  display: block;
+  margin-top: 4.7rem;
+  margin-left: 10%;
+  z-index: 3333333;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 1rem;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+}
+
+.footer-icons i {
+  color: #848895;
+  font-size: x-large;
+}
+
+.footer-icons i:hover {
+  color: white;
+  transition: 0.5s all;
+}
+
+.footer-solana {
+  width: 100%;
+  position: absolute;
+  left: 55%;
+  top: 11%;
+  height: 100px;
+}
+
+.footer-solana h2 {
+  color: white;
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+  display: block;
+  margin-left: 2.5%;
+}
+
+.footer-solana ol {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  list-style: none;
+  line-height: 170%;
+}
+.text {
+  color: #848895;
+  text-decoration: none;
+}
+
+.text:hover {
+  color: white;
+  transition: 0.5s all;
+}
+
+.get-connect {
+  width: 100%;
+  position: absolute;
+
+  left: 65%;
+  top: 11%;
+  height: 100px;
+}
+
+.get-connect ol {
+  font-family: "Roboto", sans-serif;
+  list-style: none;
+  line-height: 170%;
+}
+
+.tx1 {
+  color: #848895;
+  text-decoration: none;
+}
+
+.tx1:hover {
+  color: white;
+  transition: 0.5s all;
+}
+
+.get-connect h2 {
+  color: white;
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+  display: block;
+  margin-left: 2.5%;
+}
+
+.drop-down {
+  width: 100%;
+  height: 100px;
+
+  position: absolute;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  background-color: black;
+  right: -83%;
+  top: 8%;
+}
+
+.drop-down i {
+  color: #848895;
+  font-size: x-large;
+}
+
+.drop-down select {
+  font-family: "Roboto", sans-serif;
+  color: #848895;
+}
+
+.drop-down i:hover {
+  color: white;
+  transition: 0.5s all;
+}
+
+.drop-down select:hover {
+  color: black;
+  background-color: white;
+}
+
+#end {
+  display: block;
+  margin-left: -42.5%;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  margin-top: 10%;
+  color: white;
+}
+
+.rt {
+  display: none;
+}
+/* Media Query Section */
+
+@media only screen and (max-width: 431px) {
+  .non-breaking-space {
+    display: inline;
+  }
+  header {
+    width: 105%;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    border: none;
+    z-index: 2222;
+    background-color: #121212;
+  }
+
+  .solana {
+    position: absolute;
+    left: 4%;
+    top: 33%;
+  }
+
+  .solana img {
+    width: 35%;
+  }
+
+  .list-items {
+    display: none;
+  }
+
+  .media-icons {
+    width: 100%;
+    display: block;
+    height: 40px;
+    position: absolute;
+    bottom: -100%;
+    left: 20%;
+  }
+
+  .search-icon {
+    display: block;
+    width: 100%;
+
+    height: 20px;
+    color: white;
+    position: absolute;
+    right: -25%;
+    font-size: x-large;
+    bottom: 35%;
+  }
+
+  .images-section {
+    position: absolute;
+    top: 0%;
+    background-color: #121212;
+  }
+
+  .menu-icon {
+    display: block;
+    width: 100%;
+
+    height: 20px;
+    color: white;
+    position: absolute;
+    right: -13%;
+    font-size: xx-large;
+    bottom: 47%;
+  }
+
+  .l-image {
+    position: absolute;
+    right: -60%;
+    rotate: 0deg;
+    width: 105%;
+    top: 5%;
+  }
+
+  .main-heading {
+    width: 75%;
+
+    padding: rem;
+    position: absolute;
+    left: 13%;
+    top: 15%;
+  }
+
+  .main-heading h1 {
+    font-size: 1.7rem;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .l-heading {
+    position: absolute;
+    top: 25%;
+    left: 0%;
+  }
+
+  .main-title {
+    width: 100%;
+    padding: 0 0 0 0.5rem;
+    height: 110px;
+    position: absolute;
+    top: 28%;
+  }
+
+  .main-title br {
+    display: none;
+  }
+
+  .building {
+    width: 100%;
+
+    position: absolute;
+    left: -1%;
+    top: 47%;
+  }
+
+  .building button {
+    width: 90%;
+  }
+
+  .docs {
+    width: 100%;
+    position: absolute;
+    left: 3.5%;
+    top: 55%;
+  }
+
+  .docs button {
+    width: 90%;
+  }
+
+  .bottom-icons {
+    width: 80%;
+
+    position: absolute;
+    left: 9%;
+    top: 64%;
+  }
+
+  .main-images {
+    position: absolute;
+    top: 72%;
+    left: -14%;
+  }
+
+  .circle {
+    width: 100%;
+  }
+  .circle img {
+    width: 22%;
+  }
+
+  .discord img {
+    width: 22%;
+  }
+  .discord {
+    display: block;
+    position: absolute;
+    left: 45.5%;
+    top: 31%;
+  }
+
+  .google {
+    display: block;
+    position: absolute;
+    left: 72%;
+  }
+
+  .google img {
+    width: 20%;
+  }
+
+  .jump {
+    display: block;
+    position: absolute;
+    left: 95%;
+    top: 35%;
+  }
+
+  .jump img {
+    width: 15%;
+  }
+
+  .magic-eden {
+    display: block;
+    position: absolute;
+    top: 94%;
+    left: 18%;
+  }
+
+  .meta {
+    display: block;
+    position: absolute;
+    top: 94%;
+    left: 52%;
+  }
+
+  .meta img {
+    width: 20%;
+  }
+
+  .shopify {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 90%;
+  }
+
+  .shopify img {
+    width: 15%;
+  }
+
+  .stripe {
+    display: block;
+    position: absolute;
+    top: 90%;
+    left: 96%;
+  }
+
+  .stripe img {
+    width: 12%;
+  }
+  .slider-parent {
+    position: absolute;
+    top: 85%;
+  }
+  .slider {
+    width: 100%;
+    position: absolute;
+    left: 0%;
+    top: -20%;
+    height: 100%;
+  }
+
+  .slider img {
+    display: none;
+  }
+
+  .slider-heading {
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    top: 10%;
+  }
+
+  .slider-heading br {
+    display: none;
+  }
+  .slider-heading h1 {
+    font-size: 2rem;
+    line-height: 120%;
+  }
+
+  #none {
+    display: block;
+  }
+
+  .slider-title {
+    width: 90%;
+    position: absolute;
+
+    left: 0;
+    top: 36.5%;
+  }
+
+  .slider-title h3 {
+    line-height: normal;
+  }
+
+  .slider-title br {
+    display: none;
+  }
+
+  .slider-title h3 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .pay-btn {
+    width: 100%;
+    position: absolute;
+    top: 5%;
+    left: -20%;
+    border: none;
+  }
+
+  .read-btn {
+    width: 100%;
+    position: absolute;
+    left: 36%;
+    bottom: 30%;
+  }
+  .read-btn button {
+    width: 25%;
+    font-size: 1rem;
+  }
+  .read-btn i {
+    position: absolute;
+    right: 80%;
+  }
+
+  #c-icon {
+    position: absolute;
+    left: -15%;
+  }
+
+  .ds-icon {
+    position: absolute;
+
+    position: absolute;
+    left: 6%;
+    display: block;
+    margin-top: 35%;
+  }
+
+  .m-icon {
+    width: 100%;
+    position: absolute;
+    top: 30%;
+  }
+
+  .oval {
+    position: absolute;
+    left: 36%;
+    top: 85%;
+  }
+
+  .community {
+    position: absolute;
+    bottom: -100%;
+  }
+
+  .community-title {
+    position: absolute;
+    top: 4%;
+    width: 100%;
+    left: 4%;
+  }
+
+  .community-title br {
+    display: none;
+  }
+
+  .community-title h1 {
+    font-size: 1.5rem;
+    text-align: left;
+  }
+
+  .community-content {
+    position: absolute;
+    left: 4.5%;
+  }
+
+  .paying-fee h1 {
+    font-size: 4rem;
+    font-weight: lighter;
+  }
+
+  .paying-fee p {
+    font-size: 1.2rem;
+    position: absolute;
+    top: 150%;
+    font-weight: bolder;
+    left: 0.5%;
+  }
+
+  .nfts {
+    position: absolute;
+    top: 40%;
+  }
+
+  .nfts h1 {
+    font-size: 4rem;
+  }
+  .nfts p {
+    font-size: 1.2rem;
+    position: absolute;
+    top: 160%;
+    font-weight: bolder;
+    left: 1%;
+  }
+
+  .transaction {
+    width: 100%;
+    top: 100%;
+  }
+
+  .transaction h1 {
+    font-size: 4rem;
+  }
+  .transaction p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    position: absolute;
+    top: 155%;
+    left: 0.5%;
+  }
+
+  .mass-adoption {
+    position: absolute;
+    height: 200%;
+    top: 199%;
+  }
+
+  .curve-image {
+    display: none;
+  }
+
+  .media-curve-image {
+    display: block;
+    position: absolute;
+    top: -10%;
+    left: -10%;
+  }
+
+  .media-curve-image img {
+    width: 200%;
+    height: 1100px;
+  }
+
+  .mass-adoption-title {
+    position: absolute;
+    top: -10%;
+    left: 4%;
+  }
+
+  .mass-adoption-title br {
+    display: none;
+  }
+  .mass-adoption-title h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .mass-adoption-info {
+    position: absolute;
+    top: -3%;
+    left: 5%;
+  }
+
+  .mass-adoption-info i {
+    position: absolute;
+    left: -1.5%;
+  }
+
+  .mass-adoption-info p {
+    font-weight: bold;
+  }
+  .mass-card {
+    width: 80%;
+    height: 280px;
+    padding: 1rem;
+    padding-bottom: 5rem;
+    position: absolute;
+    top: -272%;
+    border: none;
+    right: 3.8%;
+  }
+
+  .m-card-heading {
+    position: absolute;
+    left: 12%;
+  }
+
+  .mass-card hr {
+    width: 8%;
+    position: absolute;
+    top: 10.5%;
+    left: 4%;
+  }
+
+  .m-content {
+    padding: 1rem;
+
+    width: 100%;
+  }
+
+  .m-content p {
+    font-size: large;
+    position: absolute;
+    left: 5%;
+    top: -190%;
+  }
+
+  .m-icon {
+    width: 100%;
+
+    position: absolute;
+    top: 50%;
+  }
+
+  .m-icon h1 {
+    position: absolute;
+    left: 5.5%;
+  }
+
+  .m-icon i {
+    position: absolute;
+    left: 2.2%;
+  }
+  .m-icon p {
+    position: absolute;
+    left: 3%;
+  }
+
+  .s-card {
+    position: absolute;
+    top: -190%;
+    right: 3.9%;
+    width: 80%;
+    height: 280px;
+    padding: 1rem;
+    border: none;
+    padding-bottom: 5rem;
+  }
+
+  .s-card-heading {
+    position: absolute;
+    left: 12%;
+    top: 0.5%;
+  }
+
+  .s-card hr {
+    width: 8%;
+    position: absolute;
+    top: 8%;
+    left: 4%;
+  }
+
+  .s-content p {
+    font-size: large;
+    position: absolute;
+    display: block;
+    margin-top: 10%;
+    left: 5%;
+  }
+
+  .s-icon {
+    width: 100%;
+    bottom: 0%;
+    position: absolute;
+
+    display: block;
+    margin-bottom: 45%;
+    z-index: 222;
+  }
+
+  .s-icon {
+    position: absolute;
+    bottom: -20%;
+  }
+
+  .s-icon p {
+    display: block;
+    margin-left: 5%;
+  }
+
+  .s-icon h1 {
+    display: block;
+    margin-left: -4.5%;
+  }
+
+  .s-icon i {
+    display: block;
+    margin-left: 1%;
+    margin-top: -2%;
+  }
+
+  .d-card {
+    position: absolute;
+    width: 80%;
+    height: 280px;
+    padding: 1rem;
+    border: none;
+    padding-bottom: 5rem;
+    top: -50%;
+    left: -61%;
+  }
+
+  .d-card-heading {
+    position: absolute;
+    left: 12%;
+    top: 0.5%;
+  }
+
+  .d-card hr {
+    width: 8%;
+    position: absolute;
+    top: 8%;
+    left: 4%;
+  }
+
+  .d-content p {
+    font-size: large;
+    position: absolute;
+    display: block;
+    margin-top: 10%;
+    left: 5%;
+    top: -120%;
+  }
+
+  .d-icon {
+    position: absolute;
+    top: 60%;
+    left: 1%;
+  }
+
+  .d-icon p {
+    position: absolute;
+    top: 70%;
+    left: 6%;
+  }
+
+  .d-icon h1 {
+    position: absolute;
+    left: 8%;
+  }
+
+  .d-icon i {
+    position: absolute;
+    left: 6%;
+  }
+
+  .e-card {
+    position: absolute;
+    width: 80%;
+    height: 280px;
+    padding: 1rem;
+    border: none;
+    padding-bottom: 8rem;
+    top: -25%;
+    right: 6.6%;
+  }
+
+  .e-card-heading {
+    position: absolute;
+    left: 12%;
+    top: 0.5%;
+  }
+
+  .e-card hr {
+    width: 8%;
+    position: absolute;
+    top: 8%;
+    left: 4%;
+  }
+
+  .e-content {
+    font-size: large;
+    position: absolute;
+    display: block;
+    margin-top: -120%;
+    left: 6.5%;
+    top: 125%;
+  }
+
+  .e-icon {
+    width: 100%;
+    position: absolute;
+    top: 73%;
+    left: 7%;
+  }
+
+  .e-icon i {
+    position: absolute;
+    left: 60%;
+    left: 36%;
+  }
+
+  .movable-card {
+    position: absolute;
+    left: -3%;
+    top: 0%;
+  }
+
+  .moving-card {
+    position: absolute;
+    left: -3%;
+    top: 1%;
+  }
+  .simple-card {
+    position: absolute;
+    left: -0.5%;
+    top: 5%;
+  }
+
+  .real-world-section {
+    height: 1700px;
+    position: absolute;
+    bottom: -473%;
+  }
+
+  .real-world-heading {
+    position: absolute;
+    top: -2%;
+    left: 5%;
+  }
+
+  .goto-btn {
+    position: absolute;
+    left: 0%;
+    top: 8.5%;
+  }
+
+  .goto-btn button {
+    width: 45%;
+    display: block;
+    margin: auto;
+  }
+
+  .goto-btn button i {
+    color: white;
+    text-align: right;
+    position: absolute;
+    right: 30%;
+  }
+
+  .real-world-cards {
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-left: -7.5%;
+    position: absolute;
+    top: 16%;
+    height: 982.6771653543307px;
+    border: none;
+  }
+  .xp-card {
+    height: 25%;
+  }
+
+  .xp-title {
+    position: absolute;
+    top: 12.5%;
+  }
+  .xp-title h2 {
+    color: ;
+    font-size: xx-large;
+  }
+
+  .xp-content {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 20%;
+  }
+  .xp-content br {
+    display: inline;
+  }
+
+  .xp-content i {
+    position: absolute;
+    top: -100%;
+    right: 10%;
+  }
+
+  .boba-card {
+    width: 100%;
+    height: 25%;
+    position: absolute;
+    bottom: 40%;
+  }
+  .boba-study-btn {
+    position: absolute;
+    top: 30%;
+  }
+
+  .boba-title {
+    position: absolute;
+    top: 48%;
+  }
+  .boba-content i {
+    position: absolute;
+    right: 9%;
+  }
+
+  .boba-content {
+    position: absolute;
+    top: 74%;
+  }
+
+  .home-card {
+    width: 100%;
+    height: 25%;
+    position: absolute;
+    bottom: 5%;
+  }
+  .home-study-btn {
+    position: absolute;
+    top: 30%;
+    left: 4%;
+  }
+
+  .home-title {
+    position: absolute;
+    top: 48%;
+    left: 4%;
+  }
+
+  .home-content i {
+    position: absolute;
+    left: 83.5%;
+  }
+
+  .home-content {
+    position: absolute;
+    top: 74%;
+    left: 4%;
+  }
+
+  .hive-mapper-card {
+    width: 100%;
+    height: 25%;
+    position: absolute;
+    bottom: -30%;
+  }
+  .hive-mapper-study-btn {
+    position: absolute;
+    top: 40%;
+    left: 4%;
+  }
+  .hive-mapper-title {
+    position: absolute;
+    top: 52%;
+    left: 4%;
+  }
+
+  .hive-mapper-content i {
+    position: absolute;
+    left: 83.5%;
+  }
+
+  .hive-mapper-content {
+    position: absolute;
+    top: 78%;
+    left: 4%;
+  }
+
+  .growth-section {
+    position: absolute;
+    height: 1000px;
+    bottom: -590%;
+  }
+  .g-heading {
+    position: absolute;
+    left: 4%;
+    top: 0%;
+  }
+  .g-heading h4 {
+    font-size: 2rem;
+  }
+
+  .f-buttons {
+    position: absolute;
+    left: -60%;
+    width: 80%;
+    gap: 0.4rem;
+    padding: 1rem;
+    padding: 1rem;
+    bottom: 130%;
+  }
+
+  .f-buttons button {
+    width: 23%;
+    padding: 1rem 1.2rem;
+  }
+
+  #border {
+    width: 100%;
+  }
+  .main-parent {
+    width: 80%;
+    height: 700px;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+  }
+
+  .left-section {
+    position: absolute;
+    bottom: -64.5%;
+
+    width: 100%;
+  }
+
+  .left-section img {
+    object-fit: contain;
+    position: absolute;
+    top: -35%;
+  }
+
+  .right-section {
+    width: 100%;
+  }
+
+  .inner-section {
+    width: 90%;
+
+    position: absolute;
+    top: 0%;
+  }
+
+  .s-image {
+    width: 50%;
+  }
+
+  .symbols {
+    position: absolute;
+    top: 80%;
+    align-items: first baseline;
+  }
+
+  .symbols img {
+    width: 25%;
+  }
+
+  #no {
+    display: none;
+  }
+  .grid {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+
+    position: absolute;
+    top: 689%;
+  }
+  .grid-heading {
+    position: absolute;
+    left: 4%;
+    top: -30%;
+  }
+
+  .main-grid {
+    width: 70%;
+    border: 1px solid red;
+    display: none;
+  }
+
+  .nope {
+    display: none;
+  }
+
+  .media-only-img {
+    width: 80%;
+    display: block;
+    height: 350px;
+    position: absolute;
+    border-radius: 10px;
+    right: 10%;
+    margin-top: 10%;
+  }
+
+  .media-only-img img {
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .join {
+    position: absolute;
+    bottom: -80%;
+    margin-top: 65%;
+  }
+
+  .img {
+    display: none;
+  }
+
+  #js-img {
+    display: inline-block;
+    position: absolute;
+    z-index: 2222;
+    width: 150%;
+    top: -30%;
+
+    left: -6%;
+  }
+  .j-card {
+    background-color: #121212;
+    opacity: 1;
+    position: absolute;
+    top: -2%;
+    right: 7%;
+  }
+
+  .j-card h1 {
+    font-size: 2.5rem;
+    text-align: left;
+  }
+
+  .j-card h1 br {
+    display: none;
+  }
+
+  .j-card button {
+    display: block;
+    margin-left: -20%;
+    margin-top: 10%;
+  }
+
+  .foot {
+    height: 750px;
+  }
+
+  .foot-image {
+    display: block;
+    padding: 2rem;
+    margin-left: 30%;
+  }
+
+  .foot-image img {
+    width: 35%;
+    position: absolute;
+    top: 10%;
+    left: 33%;
+  }
+
+  .foot-image h1 {
+    position: absolute;
+    top: -5%;
+    left: 30%;
+  }
+
+  .footer-icons {
+    position: absolute;
+    left: 25%;
+    top: 20%;
+  }
+
+  .footer-solana {
+    position: absolute;
+    top: 30%;
+    left: 0%;
+  }
+
+  .footer-solana h2 {
+    display: block;
+    margin-left: 4%;
+  }
+
+  .footer-solana ol {
+    position: absolute;
+    left: -5%;
+    line-height: 200%;
+  }
+
+  .get-connect {
+    position: absolute;
+    top: 30.2%;
+    left: 45%;
+  }
+
+  .get-connect ol {
+    line-height: 200%;
+    position: absolute;
+    top: 65%;
+  }
+  .get-connect h2 {
+    display: block;
+    margin-left: 8.5%;
+  }
+  .rt {
+    display: inline-block;
+    rotate: 180deg;
+    width: 400px;
+  }
+  .hr {
+    width: 1000%;
+
+    height: 100px;
+    display: block;
+    margin-top: 70%;
+    margin-left: -52%;
+    z-index: 66666;
+  }
+  .drop-down {
+    position: absolute;
+    top: 58.5%;
+    left: 50%;
+    width: max-content;
+  }
+
+  #end {
+    font-size: 1.22rem;
+    width: 200%;
+    position: absolute;
+    bottom: 0%;
+    left: 28%;
+    color: white;
+    z-index: 444444;
+  }
+}

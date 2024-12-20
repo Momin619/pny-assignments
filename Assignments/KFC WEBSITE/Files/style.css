@@ -1,0 +1,529 @@
+nav {
+    width: 100%;
+    height: 690px;
+background-color: black;
+    margin:  auto;
+    display: flex;
+    
+    height: ;
+}
+
+body{
+    background-color: black;
+}
+.image {
+    
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    padding-bottom: 5px;
+    top: 1.9%;
+    margin-top: 26.5px;
+    left: 8%;
+color: white;
+font-size: xx-large;
+border: 1px solid red;
+}
+
+.photo img {
+    position: absolute;
+    top: 20%;
+    left: -50%;
+    object-fit: contain;
+    
+
+}
+
+.logo {
+    width: 100px;
+    left: 13%;
+    position: absolute;
+    top: 6%;
+}
+
+.delivery_logo {
+    position: absolute;
+    left: 19.5%;
+    top: 4.8%;
+    border: 2px solid #EA002A;
+    color: #FFFFFF;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+    background-color: #1C1816;
+    border-radius: 6px;
+    gap: 0.3rem;
+    text-transform: uppercase;
+    height: 2.5%;
+   
+}
+
+.pickup {
+
+    border: 2px solid #EA002A;
+    position: absolute;
+    top: 4.8%;
+    left: 29%;
+    padding: 10px;
+    padding-bottom: 15px;
+    color: #FFFFFF;
+    display: flex;
+    gap: 0.5rem;
+    text-transform: uppercase;
+    align-items: center;
+    background-color: #1C1816;
+    border-radius: 6px;
+    height: 2.5%;
+
+}
+
+.bucket img {
+
+    position: absolute;
+    left: 79.5%;
+    top: 1.9%;
+    border-image: black;
+ width: 85px;
+ height: 85px;
+ 
+}
+
+
+.login {
+    padding: 10px;
+    border: 2px solid red;
+    color: white;
+    background-color: #EA002A;
+    left: 85%;
+    position: absolute;
+    top: 5.5%;
+    text-transform: uppercase;
+    border-radius: 4px;
+    display: flex;
+    ;
+width: max-content;
+height: max-content;
+
+
+}
+
+.photo img {
+   position: absolute;
+top: 15%;
+
+left: 9.75%;
+
+}
+
+button {
+    position: absolute;
+    width: 717px;
+    height: 40px;
+    top: 86%;
+    left: 27.1%;
+    background-color: #EA002A;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius:5px;
+    border: none;
+    
+}
+
+.number{
+color: black;
+position: absolute;
+right: 17.9%;
+top: 4%;
+font-weight: bolder;
+}
+
+.menu-icon{
+color: white;
+text-align: left;
+position: absolute;
+top: 5.8%;
+left: 9%;
+font-size: xx-large;
+}
+
+
+
+.explore{
+width: 100%;
+ background-color: black;   
+color: white;
+font-size: xx-large;
+
+ margin: auto;
+}
+
+.explore hr{
+position: absolute;
+left: 12%;
+height: 25%;
+background-color: #EA002A;
+width: 100%;
+
+}
+
+.e-cards{
+display: flex;
+    margin: 2rem 0;
+    gap: 2rem;
+}
+
+.e-card{
+padding: 2rem;
+    background-color: #1C1816;
+    
+    border-radius: 50% 50% 3% 50%;
+    text-align: center;
+    position: relative;
+}
+
+.e-card hr{
+
+    width: 25%; 
+position: absolute;    
+top:85%;
+
+margin: 0.5rem 5rem 0;
+height: 2px;
+background-color: #EA002A;
+border: none;
+}
+
+.e-heading hr{
+    width: 10%; 
+    
+ top: 92%;
+    height: 5px;
+    background-color: #EA002A;
+    border: none;
+left: 0%;
+}
+
+
+.dot{
+
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.e-card:hover{
+transform: translateY(-20px);
+
+}
+
+
+.s-cards{
+    display:flex;
+justify-content:center;
+    gap:1.5rem;
+   
+}
+
+
+.s-card{
+padding: 5px;
+background-color: #1C1816;
+text-align: left;
+border-radius: 4px ;
+
+}
+
+.s-heading{
+    font-size: x-large;
+}
+
+
+
+
+
+.sellers hr{
+    width: 6.7%; 
+    font-size: xx-large;
+    top: 142%;
+       height: 4px;
+       background-color: #EA002A;
+    border: none;
+   position: absolute;
+   }
+
+
+
+
+
+
+
+.sellers{
+color: #FFFFFF;
+    background-color: black;
+    margin:2rem  auto; 
+    padding: 1rem;
+}
+
+.boxes{
+display: flex; 
+gap: 0.4rem;
+justify-content: center;
+}
+
+.red-box{
+
+width: 20px;
+height: 20px;
+background-color: #EA002A;
+}
+
+.price{
+text-align: right;
+    clip-path: polygon(25% 0%, 100% 0, 100% 100%, 25% 100%, 64% 51%);
+background-color:#EA002A;
+padding: 5px;
+width:50%;
+position:relative;
+right: 0%;
+left:47.5%;
+top: -2%;
+height: 10%;
+
+}
+
+.t-cards{
+    display: flex;
+    gap: 1rem;
+    ;
+    align-items: center;
+    justify-content: center;
+   
+}
+ .t-card{
+    background-color: #1C1816;
+    border-radius: 15px;
+    padding: 15px;
+    color: white;
+    position: relative;
+    height: max-content;
+    
+ }
+
+.top-deals{
+
+
+}
+
+
+.t-card img {
+
+    position: relative;
+    left: 5.5%;
+}
+
+.t-heading{
+
+color: white;
+font-size: xx-large;
+margin: 0 0 1.5rem 0;
+font-weight: bolder;
+position: relative;
+}
+
+.t-heading hr{
+width: 5%;
+height: 5px;
+background-color: #EA002A ;
+border: none;
+position: absolute ;
+top: 80%;
+
+}
+
+
+.t-card i {
+
+    color: #EA002A;
+    position: absolute;
+    right: 6%;
+    font-size: x-large;
+}
+
+.t-card:hover .hover-image {
+scale: 1.1;
+
+}
+.t-card{
+    overflow: hidden;
+}
+
+
+.hover-image{
+
+    transition: all 0.3s;
+}
+
+.t-card button{
+width: 40%;
+padding: 0.4rem;
+margin: auto;
+display: block;
+margin-bottom: -10%;
+   color: #FFFFFF;
+    position: absolute;
+    top: 94%;
+    left: 30%;
+    border: none;
+}
+.images{
+    display: flex;
+    gap: 2rem; 
+    border-radius: 1rem;
+}
+.right-images{
+gap: 2rem;
+    display: flex;
+    flex-direction: column;
+ 
+    width: 50%;
+}
+
+.left-images{
+    display: flex;
+    gap: 1.5rem;
+    width: 50%;
+    flex-direction: column;
+}
+
+.explore-image{
+    margin: auto;
+    background-color: #1C1816;
+    width: 100%;
+height: 48%;
+position: relative;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: white;
+font-size: x-large;
+}
+
+
+
+    
+    
+
+
+.explore-image button{
+    width: 30%;
+    height: 10%;
+    display: block;
+    margin: auto;
+    position: absolute;
+    left: 35%;
+    font-size: large;
+    background-color: #EA002A;
+    font-weight: bolder;
+    border: none;
+}
+
+
+.footer{
+
+    background-color: #1C1816;
+    width: 98.5%;
+    height: 100%;
+    border-collapse: collapse;
+    justify-content: center;
+    position: relative; 
+    padding: 15px;
+    overflow: hidden;
+}
+
+.logos{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    position: relative;
+    justify-content: center;
+}
+
+.youtube-logo{
+
+    position: absolute;
+    left: 40%; 
+    top: -15%;
+}
+.kfc-logo{
+    left: 33%;
+    position: absolute;
+    top: 5%;
+
+}
+
+.f-information{
+    display: flex;
+    gap: 5rem; 
+    color: white;
+    justify-content: center;
+   
+}
+
+.
+
+.facebook-logo{
+position: absolute;    
+left: 55%;
+top: 1%;
+}
+.youtube-logo{
+    position: absolute;
+    left: 40%;
+}
+
+.download-logo{
+    display: flex;
+    gap: 1rem;
+    justify-content: right;
+    align-items: flex-start;
+}
+
+.app-store-logo{
+    position: absolute;
+    top: 30%;
+    right:15.5%;
+}
+
+.google-play-logo{
+
+    position: absolute;
+    top: 30%;
+    right: -3%;
+    
+
+}
+
+.footer h4{
+    font-size: x-large;
+    font-weight: bolder;
+color: white;
+}
+
+.google-play-logo h4{
+    color: white;
+    text-align: center;
+}
+
+.images img{
+    border-radius: 10px;
+}
+
+.explore-image{
+    border-radius: 10px;
+}

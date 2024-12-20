@@ -1,0 +1,26 @@
+TO initialize your git:
+git init
+
+TO CHANGE YOUR BRANCH:
+git branch -m Main
+
+TO CHECK WHETHER YOUR EMAIL IS LINKED:
+git config user.email
+
+TO ADD EMAIL TO ALL YOUR PROJECTS:
+git config --global user.email "your emial"
+
+TO ADD NAME TO ALL YOUR PROJECTS:
+git config --global user.name "your name"
+
+TO LINK YOUR REPOSITORY:
+git remote add origin (link of the repository)
+
+TO ADD DATA IN THE GIT:
+git add .
+
+TO COMMIT DATA IN YOUR GIT:
+git commit -m "any comment"
+
+TO PUSH DATA IN THE BACKEND:
+git push -u origin Main

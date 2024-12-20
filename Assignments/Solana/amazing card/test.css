@@ -1,0 +1,39 @@
+body {
+  background-color: black;
+}
+.card {
+  width: 500px;
+  border-radius: 10px;
+  height: 700px;
+  background-color: #1c1f2b;
+  display: block;
+  margin: auto;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  padding: 1rem;
+  text-align: center;
+  position: relative;
+}
+
+.card::after,
+.card::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  border-radius: 10px;
+  height: 100%;
+  background-image: conic-gradient(#ff4545, #00ff99, #006aff, #ff0095, #ff4545);
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  padding: 10px;
+  animation: 1.5s spin linear infinite;
+}
+
+.card::before {
+  filter: blur(1.5rem);
+
+  opacity: 0.5;
+}

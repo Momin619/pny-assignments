@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Side bar</title>
+    <style>
+      .sidebar {
+        width: 20%;
+        height: 100vh;
+        background-color: blue;
+        position: absolute;
+        top: 0%;
+        transform: translateX(-100%);
+        transition: all 0.6s ease-in;
+      }
+
+      button {
+        position: fixed;
+        top: 0;
+        left: 0%;
+        z-index: 2222;
+      }
+
+      .underlay {
+        width: 100vw;
+        height: 100vh;
+        border: 1px solid red;
+        background-color: rgba(0, 0, 0, 0.5);
+        position: fixed;
+        top: 0;
+        opacity: 0;
+        transition: all 0.3s ease-in;
+      }
+
+      .dekho {
+        transform: translateX(-1px);
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      src="https://www.kfcpakistan.com/images/a4214300-f29b-11ee-84d7-dbdd7f31cafb-1copy_desktop_image-2024-04-04155438.jpg"
+      width="100%"
+    />
+    <button>Show</button>
+    <div class="underlay">
+      <div class="sidebar"></div>
+    </div>
+
+    <script>
+      let sidebar = document.querySelector(".sidebar");
+      let underlay = document.querySelector(".underlay");
+      let btn = document.querySelector("button");
+      let open = true;
+
+      btn.addEventListener("click", () => {
+        underlay.classList.toggle("dekho");
+        sidebar.classList.toggle("dekho");
+      });
+    </script>
+  </body>
+</html>

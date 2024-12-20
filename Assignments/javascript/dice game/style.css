@@ -1,0 +1,22 @@
+.container {
+  position: absolute;
+  width: 100%;
+  top: 20%;
+  left: 25%;
+}
+
+.player1 {
+  width: 70%;
+  height: 250px;
+}
+
+.player1 button {
+  display: block;
+  margin-left: 2.5%;
+}
+
+.paly2 {
+  display: block;
+
+  margin-left: -40%;
+}
